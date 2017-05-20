@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DB9CDF91EC98EDA00286BED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CDF81EC98EDA00286BED /* main.m */; };
+		6DB9CDFC1EC98EDA00286BED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CDFB1EC98EDA00286BED /* AppDelegate.m */; };
+		6DB9CDFF1EC98EDA00286BED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CDFE1EC98EDA00286BED /* ViewController.m */; };
+		6DB9CE021EC98EDA00286BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9CE001EC98EDA00286BED /* Main.storyboard */; };
+		6DB9CE041EC98EDA00286BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9CE031EC98EDA00286BED /* Assets.xcassets */; };
+		6DB9CE071EC98EDA00286BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9CE051EC98EDA00286BED /* LaunchScreen.storyboard */; };
+		6DB9CE121EC98EDA00286BED /* ______headView__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CE111EC98EDA00286BED /* ______headView__________Tests.m */; };
+		6DB9CE1D1EC98EDB00286BED /* ______headView__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CE1C1EC98EDB00286BED /* ______headView__________UITests.m */; };
+		6DB9CE5B1EC98F5D00286BED /* HeadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CE561EC98F5D00286BED /* HeadImageView.m */; };
+		6DB9CE5C1EC98F5D00286BED /* HeadLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CE581EC98F5D00286BED /* HeadLineView.m */; };
+		6DB9CE5D1EC98F5D00286BED /* NavHeadTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CE5A1EC98F5D00286BED /* NavHeadTitleView.m */; };
+		6DE545D61EC9A40F0060A093 /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE545CC1EC9A40F0060A093 /* 23.jpg */; };
+		6DE545D71EC9A40F0060A093 /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE545CD1EC9A40F0060A093 /* 29.jpg */; };
+		6DE545D81EC9A40F0060A093 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE545CE1EC9A40F0060A093 /* 5.jpg */; };
+		6DE545D91EC9A40F0060A093 /* bg-mine.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE545CF1EC9A40F0060A093 /* bg-mine.png */; };
+		6DE545DA1EC9A40F0060A093 /* Mail-click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE545D01EC9A40F0060A093 /* Mail-click@2x.png */; };
+		6DE545DB1EC9A40F0060A093 /* Mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE545D11EC9A40F0060A093 /* Mail@2x.png */; };
+		6DE545DC1EC9A40F0060A093 /* pencil-light-shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE545D21EC9A40F0060A093 /* pencil-light-shadow@2x.png */; };
+		6DE545DD1EC9A40F0060A093 /* Setting-click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE545D31EC9A40F0060A093 /* Setting-click@2x.png */; };
+		6DE545DE1EC9A40F0060A093 /* Setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE545D41EC9A40F0060A093 /* Setting@2x.png */; };
+		6DE545DF1EC9A40F0060A093 /* zrx7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DE545D51EC9A40F0060A093 /* zrx7.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DB9CE0E1EC98EDA00286BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9CDEC1EC98EDA00286BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB9CDF31EC98EDA00286BED;
+			remoteInfo = "个人中心的 headView 拉伸&导航隐藏出现";
+		};
+		6DB9CE191EC98EDB00286BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9CDEC1EC98EDA00286BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB9CDF31EC98EDA00286BED;
+			remoteInfo = "个人中心的 headView 拉伸&导航隐藏出现";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DB9CDF41EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "个人中心的 headView 拉伸&导航隐藏出现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB9CDF81EC98EDA00286BED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DB9CDFA1EC98EDA00286BED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DB9CDFB1EC98EDA00286BED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DB9CDFD1EC98EDA00286BED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DB9CDFE1EC98EDA00286BED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DB9CE011EC98EDA00286BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DB9CE031EC98EDA00286BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DB9CE061EC98EDA00286BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DB9CE081EC98EDA00286BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB9CE0D1EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "个人中心的 headView 拉伸&导航隐藏出现Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB9CE111EC98EDA00286BED /* ______headView__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______headView__________Tests.m"; sourceTree = "<group>"; };
+		6DB9CE131EC98EDA00286BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB9CE181EC98EDB00286BED /* 个人中心的 headView 拉伸&导航隐藏出现UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "个人中心的 headView 拉伸&导航隐藏出现UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB9CE1C1EC98EDB00286BED /* ______headView__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______headView__________UITests.m"; sourceTree = "<group>"; };
+		6DB9CE1E1EC98EDB00286BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB9CE551EC98F5D00286BED /* HeadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadImageView.h; sourceTree = "<group>"; };
+		6DB9CE561EC98F5D00286BED /* HeadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadImageView.m; sourceTree = "<group>"; };
+		6DB9CE571EC98F5D00286BED /* HeadLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadLineView.h; sourceTree = "<group>"; };
+		6DB9CE581EC98F5D00286BED /* HeadLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadLineView.m; sourceTree = "<group>"; };
+		6DB9CE591EC98F5D00286BED /* NavHeadTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavHeadTitleView.h; sourceTree = "<group>"; };
+		6DB9CE5A1EC98F5D00286BED /* NavHeadTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavHeadTitleView.m; sourceTree = "<group>"; };
+		6DE545CC1EC9A40F0060A093 /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
+		6DE545CD1EC9A40F0060A093 /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
+		6DE545CE1EC9A40F0060A093 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		6DE545CF1EC9A40F0060A093 /* bg-mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-mine.png"; sourceTree = "<group>"; };
+		6DE545D01EC9A40F0060A093 /* Mail-click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mail-click@2x.png"; sourceTree = "<group>"; };
+		6DE545D11EC9A40F0060A093 /* Mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mail@2x.png"; sourceTree = "<group>"; };
+		6DE545D21EC9A40F0060A093 /* pencil-light-shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pencil-light-shadow@2x.png"; sourceTree = "<group>"; };
+		6DE545D31EC9A40F0060A093 /* Setting-click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-click@2x.png"; sourceTree = "<group>"; };
+		6DE545D41EC9A40F0060A093 /* Setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting@2x.png"; sourceTree = "<group>"; };
+		6DE545D51EC9A40F0060A093 /* zrx7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zrx7.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB9CDF11EC98EDA00286BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CE0A1EC98EDA00286BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CE151EC98EDB00286BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DB9CDEB1EC98EDA00286BED = {
+			isa = PBXGroup;
+			children = (
+				6DB9CDF61EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现 */,
+				6DB9CE101EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现Tests */,
+				6DB9CE1B1EC98EDB00286BED /* 个人中心的 headView 拉伸&导航隐藏出现UITests */,
+				6DB9CDF51EC98EDA00286BED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DB9CDF51EC98EDA00286BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9CDF41EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现.app */,
+				6DB9CE0D1EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现Tests.xctest */,
+				6DB9CE181EC98EDB00286BED /* 个人中心的 headView 拉伸&导航隐藏出现UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB9CDF61EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现 */ = {
+			isa = PBXGroup;
+			children = (
+				6DE545CB1EC9A40F0060A093 /* image */,
+				6DB9CE541EC98F5D00286BED /* Views */,
+				6DB9CDFA1EC98EDA00286BED /* AppDelegate.h */,
+				6DB9CDFB1EC98EDA00286BED /* AppDelegate.m */,
+				6DB9CDFD1EC98EDA00286BED /* ViewController.h */,
+				6DB9CDFE1EC98EDA00286BED /* ViewController.m */,
+				6DB9CE001EC98EDA00286BED /* Main.storyboard */,
+				6DB9CE031EC98EDA00286BED /* Assets.xcassets */,
+				6DB9CE051EC98EDA00286BED /* LaunchScreen.storyboard */,
+				6DB9CE081EC98EDA00286BED /* Info.plist */,
+				6DB9CDF71EC98EDA00286BED /* Supporting Files */,
+			);
+			path = "个人中心的 headView 拉伸&导航隐藏出现";
+			sourceTree = "<group>";
+		};
+		6DB9CDF71EC98EDA00286BED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9CDF81EC98EDA00286BED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DB9CE101EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9CE111EC98EDA00286BED /* ______headView__________Tests.m */,
+				6DB9CE131EC98EDA00286BED /* Info.plist */,
+			);
+			path = "个人中心的 headView 拉伸&导航隐藏出现Tests";
+			sourceTree = "<group>";
+		};
+		6DB9CE1B1EC98EDB00286BED /* 个人中心的 headView 拉伸&导航隐藏出现UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9CE1C1EC98EDB00286BED /* ______headView__________UITests.m */,
+				6DB9CE1E1EC98EDB00286BED /* Info.plist */,
+			);
+			path = "个人中心的 headView 拉伸&导航隐藏出现UITests";
+			sourceTree = "<group>";
+		};
+		6DB9CE541EC98F5D00286BED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9CE551EC98F5D00286BED /* HeadImageView.h */,
+				6DB9CE561EC98F5D00286BED /* HeadImageView.m */,
+				6DB9CE571EC98F5D00286BED /* HeadLineView.h */,
+				6DB9CE581EC98F5D00286BED /* HeadLineView.m */,
+				6DB9CE591EC98F5D00286BED /* NavHeadTitleView.h */,
+				6DB9CE5A1EC98F5D00286BED /* NavHeadTitleView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DE545CB1EC9A40F0060A093 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				6DE545CC1EC9A40F0060A093 /* 23.jpg */,
+				6DE545CD1EC9A40F0060A093 /* 29.jpg */,
+				6DE545CE1EC9A40F0060A093 /* 5.jpg */,
+				6DE545CF1EC9A40F0060A093 /* bg-mine.png */,
+				6DE545D01EC9A40F0060A093 /* Mail-click@2x.png */,
+				6DE545D11EC9A40F0060A093 /* Mail@2x.png */,
+				6DE545D21EC9A40F0060A093 /* pencil-light-shadow@2x.png */,
+				6DE545D31EC9A40F0060A093 /* Setting-click@2x.png */,
+				6DE545D41EC9A40F0060A093 /* Setting@2x.png */,
+				6DE545D51EC9A40F0060A093 /* zrx7.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DB9CDF31EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB9CE211EC98EDB00286BED /* Build configuration list for PBXNativeTarget "个人中心的 headView 拉伸&导航隐藏出现" */;
+			buildPhases = (
+				6DB9CDF01EC98EDA00286BED /* Sources */,
+				6DB9CDF11EC98EDA00286BED /* Frameworks */,
+				6DB9CDF21EC98EDA00286BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "个人中心的 headView 拉伸&导航隐藏出现";
+			productName = "个人中心的 headView 拉伸&导航隐藏出现";
+			productReference = 6DB9CDF41EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DB9CE0C1EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB9CE241EC98EDB00286BED /* Build configuration list for PBXNativeTarget "个人中心的 headView 拉伸&导航隐藏出现Tests" */;
+			buildPhases = (
+				6DB9CE091EC98EDA00286BED /* Sources */,
+				6DB9CE0A1EC98EDA00286BED /* Frameworks */,
+				6DB9CE0B1EC98EDA00286BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB9CE0F1EC98EDA00286BED /* PBXTargetDependency */,
+			);
+			name = "个人中心的 headView 拉伸&导航隐藏出现Tests";
+			productName = "个人中心的 headView 拉伸&导航隐藏出现Tests";
+			productReference = 6DB9CE0D1EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DB9CE171EC98EDB00286BED /* 个人中心的 headView 拉伸&导航隐藏出现UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB9CE271EC98EDB00286BED /* Build configuration list for PBXNativeTarget "个人中心的 headView 拉伸&导航隐藏出现UITests" */;
+			buildPhases = (
+				6DB9CE141EC98EDB00286BED /* Sources */,
+				6DB9CE151EC98EDB00286BED /* Frameworks */,
+				6DB9CE161EC98EDB00286BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB9CE1A1EC98EDB00286BED /* PBXTargetDependency */,
+			);
+			name = "个人中心的 headView 拉伸&导航隐藏出现UITests";
+			productName = "个人中心的 headView 拉伸&导航隐藏出现UITests";
+			productReference = 6DB9CE181EC98EDB00286BED /* 个人中心的 headView 拉伸&导航隐藏出现UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9CDEC1EC98EDA00286BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LRY;
+				TargetAttributes = {
+					6DB9CDF31EC98EDA00286BED = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JNFXE8VMGX;
+						ProvisioningStyle = Automatic;
+					};
+					6DB9CE0C1EC98EDA00286BED = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JNFXE8VMGX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DB9CDF31EC98EDA00286BED;
+					};
+					6DB9CE171EC98EDB00286BED = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JNFXE8VMGX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DB9CDF31EC98EDA00286BED;
+					};
+				};
+			};
+			buildConfigurationList = 6DB9CDEF1EC98EDA00286BED /* Build configuration list for PBXProject "个人中心的 headView 拉伸&导航隐藏出现" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DB9CDEB1EC98EDA00286BED;
+			productRefGroup = 6DB9CDF51EC98EDA00286BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB9CDF31EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现 */,
+				6DB9CE0C1EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现Tests */,
+				6DB9CE171EC98EDB00286BED /* 个人中心的 headView 拉伸&导航隐藏出现UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB9CDF21EC98EDA00286BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE545D71EC9A40F0060A093 /* 29.jpg in Resources */,
+				6DB9CE071EC98EDA00286BED /* LaunchScreen.storyboard in Resources */,
+				6DB9CE041EC98EDA00286BED /* Assets.xcassets in Resources */,
+				6DE545DD1EC9A40F0060A093 /* Setting-click@2x.png in Resources */,
+				6DE545D81EC9A40F0060A093 /* 5.jpg in Resources */,
+				6DE545DC1EC9A40F0060A093 /* pencil-light-shadow@2x.png in Resources */,
+				6DE545DA1EC9A40F0060A093 /* Mail-click@2x.png in Resources */,
+				6DE545DB1EC9A40F0060A093 /* Mail@2x.png in Resources */,
+				6DE545D61EC9A40F0060A093 /* 23.jpg in Resources */,
+				6DE545DF1EC9A40F0060A093 /* zrx7.jpg in Resources */,
+				6DE545DE1EC9A40F0060A093 /* Setting@2x.png in Resources */,
+				6DE545D91EC9A40F0060A093 /* bg-mine.png in Resources */,
+				6DB9CE021EC98EDA00286BED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CE0B1EC98EDA00286BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CE161EC98EDB00286BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DB9CDF01EC98EDA00286BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB9CDFF1EC98EDA00286BED /* ViewController.m in Sources */,
+				6DB9CE5D1EC98F5D00286BED /* NavHeadTitleView.m in Sources */,
+				6DB9CDFC1EC98EDA00286BED /* AppDelegate.m in Sources */,
+				6DB9CE5B1EC98F5D00286BED /* HeadImageView.m in Sources */,
+				6DB9CE5C1EC98F5D00286BED /* HeadLineView.m in Sources */,
+				6DB9CDF91EC98EDA00286BED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CE091EC98EDA00286BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB9CE121EC98EDA00286BED /* ______headView__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CE141EC98EDB00286BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB9CE1D1EC98EDB00286BED /* ______headView__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DB9CE0F1EC98EDA00286BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB9CDF31EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现 */;
+			targetProxy = 6DB9CE0E1EC98EDA00286BED /* PBXContainerItemProxy */;
+		};
+		6DB9CE1A1EC98EDB00286BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB9CDF31EC98EDA00286BED /* 个人中心的 headView 拉伸&导航隐藏出现 */;
+			targetProxy = 6DB9CE191EC98EDB00286BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DB9CE001EC98EDA00286BED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB9CE011EC98EDA00286BED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DB9CE051EC98EDA00286BED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB9CE061EC98EDA00286BED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DB9CE1F1EC98EDB00286BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DB9CE201EC98EDB00286BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DB9CE221EC98EDB00286BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = "个人中心的 headView 拉伸&导航隐藏出现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.------headView----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DB9CE231EC98EDB00286BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = "个人中心的 headView 拉伸&导航隐藏出现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.------headView----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DB9CE251EC98EDB00286BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = "个人中心的 headView 拉伸&导航隐藏出现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.------headView----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/个人中心的 headView 拉伸&导航隐藏出现.app/个人中心的 headView 拉伸&导航隐藏出现";
+			};
+			name = Debug;
+		};
+		6DB9CE261EC98EDB00286BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = "个人中心的 headView 拉伸&导航隐藏出现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.------headView----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/个人中心的 headView 拉伸&导航隐藏出现.app/个人中心的 headView 拉伸&导航隐藏出现";
+			};
+			name = Release;
+		};
+		6DB9CE281EC98EDB00286BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = "个人中心的 headView 拉伸&导航隐藏出现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.------headView----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "个人中心的 headView 拉伸&导航隐藏出现";
+			};
+			name = Debug;
+		};
+		6DB9CE291EC98EDB00286BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = "个人中心的 headView 拉伸&导航隐藏出现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.------headView----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "个人中心的 headView 拉伸&导航隐藏出现";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DB9CDEF1EC98EDA00286BED /* Build configuration list for PBXProject "个人中心的 headView 拉伸&导航隐藏出现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9CE1F1EC98EDB00286BED /* Debug */,
+				6DB9CE201EC98EDB00286BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB9CE211EC98EDB00286BED /* Build configuration list for PBXNativeTarget "个人中心的 headView 拉伸&导航隐藏出现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9CE221EC98EDB00286BED /* Debug */,
+				6DB9CE231EC98EDB00286BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB9CE241EC98EDB00286BED /* Build configuration list for PBXNativeTarget "个人中心的 headView 拉伸&导航隐藏出现Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9CE251EC98EDB00286BED /* Debug */,
+				6DB9CE261EC98EDB00286BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB9CE271EC98EDB00286BED /* Build configuration list for PBXNativeTarget "个人中心的 headView 拉伸&导航隐藏出现UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9CE281EC98EDB00286BED /* Debug */,
+				6DB9CE291EC98EDB00286BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9CDEC1EC98EDA00286BED /* Project object */;
+}

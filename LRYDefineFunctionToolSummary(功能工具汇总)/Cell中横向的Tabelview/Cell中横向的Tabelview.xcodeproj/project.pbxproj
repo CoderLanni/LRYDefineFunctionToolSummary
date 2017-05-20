@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DC0648D1EC2B87D00D335BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0648C1EC2B87D00D335BE /* main.m */; };
+		6DC064901EC2B87D00D335BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0648F1EC2B87D00D335BE /* AppDelegate.m */; };
+		6DC064931EC2B87D00D335BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064921EC2B87D00D335BE /* ViewController.m */; };
+		6DC064961EC2B87D00D335BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC064941EC2B87D00D335BE /* Main.storyboard */; };
+		6DC064981EC2B87D00D335BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC064971EC2B87D00D335BE /* Assets.xcassets */; };
+		6DC0649B1EC2B87D00D335BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC064991EC2B87D00D335BE /* LaunchScreen.storyboard */; };
+		6DC064A61EC2B87E00D335BE /* Cell____TabelviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064A51EC2B87E00D335BE /* Cell____TabelviewTests.m */; };
+		6DC064B11EC2B87E00D335BE /* Cell____TabelviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064B01EC2B87E00D335BE /* Cell____TabelviewUITests.m */; };
+		6DC064C01EC2B8BB00D335BE /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064BF1EC2B8BB00D335BE /* FirstTableViewController.m */; };
+		6DC064C31EC2BA7F00D335BE /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064C21EC2BA7F00D335BE /* FirstTableViewCell.m */; };
+		6DC064C61EC2BD5B00D335BE /* CJGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064C51EC2BD5B00D335BE /* CJGoodsModel.m */; };
+		6DC064C91EC2BFFF00D335BE /* FirstInCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064C81EC2BFFF00D335BE /* FirstInCollectionViewCell.m */; };
+		6DC064CC1EC2C11C00D335BE /* FirstInModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064CB1EC2C11C00D335BE /* FirstInModel.m */; };
+		6DC064E81EC2D08C00D335BE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DC064CE1EC2D08C00D335BE /* Info.plist */; };
+		6DC064E91EC2D08C00D335BE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064D01EC2D08C00D335BE /* MASCompositeConstraint.m */; };
+		6DC064EA1EC2D08C00D335BE /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064D31EC2D08C00D335BE /* MASConstraint.m */; };
+		6DC064EB1EC2D08C00D335BE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064D51EC2D08C00D335BE /* MASConstraintMaker.m */; };
+		6DC064EC1EC2D08C00D335BE /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064D71EC2D08C00D335BE /* MASLayoutConstraint.m */; };
+		6DC064ED1EC2D08C00D335BE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064DB1EC2D08C00D335BE /* MASViewAttribute.m */; };
+		6DC064EE1EC2D08C00D335BE /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064DD1EC2D08C00D335BE /* MASViewConstraint.m */; };
+		6DC064EF1EC2D08C00D335BE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064DF1EC2D08C00D335BE /* NSArray+MASAdditions.m */; };
+		6DC064F01EC2D08C00D335BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064E21EC2D08C00D335BE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		6DC064F11EC2D08C00D335BE /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064E41EC2D08C00D335BE /* View+MASAdditions.m */; };
+		6DC064F21EC2D08C00D335BE /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC064E71EC2D08C00D335BE /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DC064A21EC2B87E00D335BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC064801EC2B87D00D335BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC064871EC2B87D00D335BE;
+			remoteInfo = "Cell中横向的Tabelview";
+		};
+		6DC064AD1EC2B87E00D335BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC064801EC2B87D00D335BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC064871EC2B87D00D335BE;
+			remoteInfo = "Cell中横向的Tabelview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DC064881EC2B87D00D335BE /* Cell中横向的Tabelview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cell中横向的Tabelview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC0648C1EC2B87D00D335BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DC0648E1EC2B87D00D335BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DC0648F1EC2B87D00D335BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DC064911EC2B87D00D335BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DC064921EC2B87D00D335BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DC064951EC2B87D00D335BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DC064971EC2B87D00D335BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DC0649A1EC2B87D00D335BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DC0649C1EC2B87D00D335BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC064A11EC2B87E00D335BE /* Cell中横向的TabelviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell中横向的TabelviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC064A51EC2B87E00D335BE /* Cell____TabelviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cell____TabelviewTests.m"; sourceTree = "<group>"; };
+		6DC064A71EC2B87E00D335BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC064AC1EC2B87E00D335BE /* Cell中横向的TabelviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell中横向的TabelviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC064B01EC2B87E00D335BE /* Cell____TabelviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cell____TabelviewUITests.m"; sourceTree = "<group>"; };
+		6DC064B21EC2B87E00D335BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC064BE1EC2B8BB00D335BE /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		6DC064BF1EC2B8BB00D335BE /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		6DC064C11EC2BA7F00D335BE /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		6DC064C21EC2BA7F00D335BE /* FirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		6DC064C41EC2BD5B00D335BE /* CJGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGoodsModel.h; sourceTree = "<group>"; };
+		6DC064C51EC2BD5B00D335BE /* CJGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGoodsModel.m; sourceTree = "<group>"; };
+		6DC064C71EC2BFFF00D335BE /* FirstInCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstInCollectionViewCell.h; sourceTree = "<group>"; };
+		6DC064C81EC2BFFF00D335BE /* FirstInCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstInCollectionViewCell.m; sourceTree = "<group>"; };
+		6DC064CA1EC2C11C00D335BE /* FirstInModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstInModel.h; sourceTree = "<group>"; };
+		6DC064CB1EC2C11C00D335BE /* FirstInModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstInModel.m; sourceTree = "<group>"; };
+		6DC064CE1EC2D08C00D335BE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC064CF1EC2D08C00D335BE /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		6DC064D01EC2D08C00D335BE /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		6DC064D11EC2D08C00D335BE /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		6DC064D21EC2D08C00D335BE /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		6DC064D31EC2D08C00D335BE /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		6DC064D41EC2D08C00D335BE /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		6DC064D51EC2D08C00D335BE /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		6DC064D61EC2D08C00D335BE /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		6DC064D71EC2D08C00D335BE /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6DC064D81EC2D08C00D335BE /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		6DC064D91EC2D08C00D335BE /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		6DC064DA1EC2D08C00D335BE /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		6DC064DB1EC2D08C00D335BE /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		6DC064DC1EC2D08C00D335BE /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		6DC064DD1EC2D08C00D335BE /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		6DC064DE1EC2D08C00D335BE /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		6DC064DF1EC2D08C00D335BE /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		6DC064E01EC2D08C00D335BE /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6DC064E11EC2D08C00D335BE /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		6DC064E21EC2D08C00D335BE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		6DC064E31EC2D08C00D335BE /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		6DC064E41EC2D08C00D335BE /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		6DC064E51EC2D08C00D335BE /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6DC064E61EC2D08C00D335BE /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		6DC064E71EC2D08C00D335BE /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DC064851EC2B87D00D335BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC0649E1EC2B87E00D335BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC064A91EC2B87E00D335BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DC0647F1EC2B87D00D335BE = {
+			isa = PBXGroup;
+			children = (
+				6DC0648A1EC2B87D00D335BE /* Cell中横向的Tabelview */,
+				6DC064A41EC2B87E00D335BE /* Cell中横向的TabelviewTests */,
+				6DC064AF1EC2B87E00D335BE /* Cell中横向的TabelviewUITests */,
+				6DC064891EC2B87D00D335BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DC064891EC2B87D00D335BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC064881EC2B87D00D335BE /* Cell中横向的Tabelview.app */,
+				6DC064A11EC2B87E00D335BE /* Cell中横向的TabelviewTests.xctest */,
+				6DC064AC1EC2B87E00D335BE /* Cell中横向的TabelviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DC0648A1EC2B87D00D335BE /* Cell中横向的Tabelview */ = {
+			isa = PBXGroup;
+			children = (
+				6DC064CD1EC2D08C00D335BE /* Masonry */,
+				6DC0648E1EC2B87D00D335BE /* AppDelegate.h */,
+				6DC0648F1EC2B87D00D335BE /* AppDelegate.m */,
+				6DC064911EC2B87D00D335BE /* ViewController.h */,
+				6DC064921EC2B87D00D335BE /* ViewController.m */,
+				6DC064BE1EC2B8BB00D335BE /* FirstTableViewController.h */,
+				6DC064BF1EC2B8BB00D335BE /* FirstTableViewController.m */,
+				6DC064C11EC2BA7F00D335BE /* FirstTableViewCell.h */,
+				6DC064C21EC2BA7F00D335BE /* FirstTableViewCell.m */,
+				6DC064C41EC2BD5B00D335BE /* CJGoodsModel.h */,
+				6DC064C51EC2BD5B00D335BE /* CJGoodsModel.m */,
+				6DC064C71EC2BFFF00D335BE /* FirstInCollectionViewCell.h */,
+				6DC064C81EC2BFFF00D335BE /* FirstInCollectionViewCell.m */,
+				6DC064CA1EC2C11C00D335BE /* FirstInModel.h */,
+				6DC064CB1EC2C11C00D335BE /* FirstInModel.m */,
+				6DC064941EC2B87D00D335BE /* Main.storyboard */,
+				6DC064971EC2B87D00D335BE /* Assets.xcassets */,
+				6DC064991EC2B87D00D335BE /* LaunchScreen.storyboard */,
+				6DC0649C1EC2B87D00D335BE /* Info.plist */,
+				6DC0648B1EC2B87D00D335BE /* Supporting Files */,
+			);
+			path = "Cell中横向的Tabelview";
+			sourceTree = "<group>";
+		};
+		6DC0648B1EC2B87D00D335BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0648C1EC2B87D00D335BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DC064A41EC2B87E00D335BE /* Cell中横向的TabelviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DC064A51EC2B87E00D335BE /* Cell____TabelviewTests.m */,
+				6DC064A71EC2B87E00D335BE /* Info.plist */,
+			);
+			path = "Cell中横向的TabelviewTests";
+			sourceTree = "<group>";
+		};
+		6DC064AF1EC2B87E00D335BE /* Cell中横向的TabelviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DC064B01EC2B87E00D335BE /* Cell____TabelviewUITests.m */,
+				6DC064B21EC2B87E00D335BE /* Info.plist */,
+			);
+			path = "Cell中横向的TabelviewUITests";
+			sourceTree = "<group>";
+		};
+		6DC064CD1EC2D08C00D335BE /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				6DC064CE1EC2D08C00D335BE /* Info.plist */,
+				6DC064CF1EC2D08C00D335BE /* MASCompositeConstraint.h */,
+				6DC064D01EC2D08C00D335BE /* MASCompositeConstraint.m */,
+				6DC064D11EC2D08C00D335BE /* MASConstraint+Private.h */,
+				6DC064D21EC2D08C00D335BE /* MASConstraint.h */,
+				6DC064D31EC2D08C00D335BE /* MASConstraint.m */,
+				6DC064D41EC2D08C00D335BE /* MASConstraintMaker.h */,
+				6DC064D51EC2D08C00D335BE /* MASConstraintMaker.m */,
+				6DC064D61EC2D08C00D335BE /* MASLayoutConstraint.h */,
+				6DC064D71EC2D08C00D335BE /* MASLayoutConstraint.m */,
+				6DC064D81EC2D08C00D335BE /* Masonry.h */,
+				6DC064D91EC2D08C00D335BE /* MASUtilities.h */,
+				6DC064DA1EC2D08C00D335BE /* MASViewAttribute.h */,
+				6DC064DB1EC2D08C00D335BE /* MASViewAttribute.m */,
+				6DC064DC1EC2D08C00D335BE /* MASViewConstraint.h */,
+				6DC064DD1EC2D08C00D335BE /* MASViewConstraint.m */,
+				6DC064DE1EC2D08C00D335BE /* NSArray+MASAdditions.h */,
+				6DC064DF1EC2D08C00D335BE /* NSArray+MASAdditions.m */,
+				6DC064E01EC2D08C00D335BE /* NSArray+MASShorthandAdditions.h */,
+				6DC064E11EC2D08C00D335BE /* NSLayoutConstraint+MASDebugAdditions.h */,
+				6DC064E21EC2D08C00D335BE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				6DC064E31EC2D08C00D335BE /* View+MASAdditions.h */,
+				6DC064E41EC2D08C00D335BE /* View+MASAdditions.m */,
+				6DC064E51EC2D08C00D335BE /* View+MASShorthandAdditions.h */,
+				6DC064E61EC2D08C00D335BE /* ViewController+MASAdditions.h */,
+				6DC064E71EC2D08C00D335BE /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DC064871EC2B87D00D335BE /* Cell中横向的Tabelview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC064B51EC2B87E00D335BE /* Build configuration list for PBXNativeTarget "Cell中横向的Tabelview" */;
+			buildPhases = (
+				6DC064841EC2B87D00D335BE /* Sources */,
+				6DC064851EC2B87D00D335BE /* Frameworks */,
+				6DC064861EC2B87D00D335BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cell中横向的Tabelview";
+			productName = "Cell中横向的Tabelview";
+			productReference = 6DC064881EC2B87D00D335BE /* Cell中横向的Tabelview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DC064A01EC2B87E00D335BE /* Cell中横向的TabelviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC064B81EC2B87E00D335BE /* Build configuration list for PBXNativeTarget "Cell中横向的TabelviewTests" */;
+			buildPhases = (
+				6DC0649D1EC2B87E00D335BE /* Sources */,
+				6DC0649E1EC2B87E00D335BE /* Frameworks */,
+				6DC0649F1EC2B87E00D335BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DC064A31EC2B87E00D335BE /* PBXTargetDependency */,
+			);
+			name = "Cell中横向的TabelviewTests";
+			productName = "Cell中横向的TabelviewTests";
+			productReference = 6DC064A11EC2B87E00D335BE /* Cell中横向的TabelviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DC064AB1EC2B87E00D335BE /* Cell中横向的TabelviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC064BB1EC2B87E00D335BE /* Build configuration list for PBXNativeTarget "Cell中横向的TabelviewUITests" */;
+			buildPhases = (
+				6DC064A81EC2B87E00D335BE /* Sources */,
+				6DC064A91EC2B87E00D335BE /* Frameworks */,
+				6DC064AA1EC2B87E00D335BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DC064AE1EC2B87E00D335BE /* PBXTargetDependency */,
+			);
+			name = "Cell中横向的TabelviewUITests";
+			productName = "Cell中横向的TabelviewUITests";
+			productReference = 6DC064AC1EC2B87E00D335BE /* Cell中横向的TabelviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DC064801EC2B87D00D335BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LRY;
+				TargetAttributes = {
+					6DC064871EC2B87D00D335BE = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					6DC064A01EC2B87E00D335BE = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DC064871EC2B87D00D335BE;
+					};
+					6DC064AB1EC2B87E00D335BE = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DC064871EC2B87D00D335BE;
+					};
+				};
+			};
+			buildConfigurationList = 6DC064831EC2B87D00D335BE /* Build configuration list for PBXProject "Cell中横向的Tabelview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DC0647F1EC2B87D00D335BE;
+			productRefGroup = 6DC064891EC2B87D00D335BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC064871EC2B87D00D335BE /* Cell中横向的Tabelview */,
+				6DC064A01EC2B87E00D335BE /* Cell中横向的TabelviewTests */,
+				6DC064AB1EC2B87E00D335BE /* Cell中横向的TabelviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DC064861EC2B87D00D335BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC064E81EC2D08C00D335BE /* Info.plist in Resources */,
+				6DC0649B1EC2B87D00D335BE /* LaunchScreen.storyboard in Resources */,
+				6DC064981EC2B87D00D335BE /* Assets.xcassets in Resources */,
+				6DC064961EC2B87D00D335BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC0649F1EC2B87E00D335BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC064AA1EC2B87E00D335BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DC064841EC2B87D00D335BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC064C01EC2B8BB00D335BE /* FirstTableViewController.m in Sources */,
+				6DC064CC1EC2C11C00D335BE /* FirstInModel.m in Sources */,
+				6DC064EF1EC2D08C00D335BE /* NSArray+MASAdditions.m in Sources */,
+				6DC064931EC2B87D00D335BE /* ViewController.m in Sources */,
+				6DC064C31EC2BA7F00D335BE /* FirstTableViewCell.m in Sources */,
+				6DC064F11EC2D08C00D335BE /* View+MASAdditions.m in Sources */,
+				6DC064EC1EC2D08C00D335BE /* MASLayoutConstraint.m in Sources */,
+				6DC064EA1EC2D08C00D335BE /* MASConstraint.m in Sources */,
+				6DC064F01EC2D08C00D335BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				6DC064E91EC2D08C00D335BE /* MASCompositeConstraint.m in Sources */,
+				6DC064901EC2B87D00D335BE /* AppDelegate.m in Sources */,
+				6DC0648D1EC2B87D00D335BE /* main.m in Sources */,
+				6DC064C61EC2BD5B00D335BE /* CJGoodsModel.m in Sources */,
+				6DC064EB1EC2D08C00D335BE /* MASConstraintMaker.m in Sources */,
+				6DC064F21EC2D08C00D335BE /* ViewController+MASAdditions.m in Sources */,
+				6DC064EE1EC2D08C00D335BE /* MASViewConstraint.m in Sources */,
+				6DC064C91EC2BFFF00D335BE /* FirstInCollectionViewCell.m in Sources */,
+				6DC064ED1EC2D08C00D335BE /* MASViewAttribute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC0649D1EC2B87E00D335BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC064A61EC2B87E00D335BE /* Cell____TabelviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC064A81EC2B87E00D335BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC064B11EC2B87E00D335BE /* Cell____TabelviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DC064A31EC2B87E00D335BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC064871EC2B87D00D335BE /* Cell中横向的Tabelview */;
+			targetProxy = 6DC064A21EC2B87E00D335BE /* PBXContainerItemProxy */;
+		};
+		6DC064AE1EC2B87E00D335BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC064871EC2B87D00D335BE /* Cell中横向的Tabelview */;
+			targetProxy = 6DC064AD1EC2B87E00D335BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DC064941EC2B87D00D335BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC064951EC2B87D00D335BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DC064991EC2B87D00D335BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC0649A1EC2B87D00D335BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DC064B31EC2B87E00D335BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DC064B41EC2B87E00D335BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DC064B61EC2B87E00D335BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cell中横向的Tabelview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.Cell----Tabelview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DC064B71EC2B87E00D335BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cell中横向的Tabelview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.Cell----Tabelview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DC064B91EC2B87E00D335BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cell中横向的TabelviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.Cell----TabelviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cell中横向的Tabelview.app/Cell中横向的Tabelview";
+			};
+			name = Debug;
+		};
+		6DC064BA1EC2B87E00D335BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cell中横向的TabelviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.Cell----TabelviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cell中横向的Tabelview.app/Cell中横向的Tabelview";
+			};
+			name = Release;
+		};
+		6DC064BC1EC2B87E00D335BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cell中横向的TabelviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.Cell----TabelviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cell中横向的Tabelview";
+			};
+			name = Debug;
+		};
+		6DC064BD1EC2B87E00D335BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cell中横向的TabelviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.Cell----TabelviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cell中横向的Tabelview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DC064831EC2B87D00D335BE /* Build configuration list for PBXProject "Cell中横向的Tabelview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC064B31EC2B87E00D335BE /* Debug */,
+				6DC064B41EC2B87E00D335BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC064B51EC2B87E00D335BE /* Build configuration list for PBXNativeTarget "Cell中横向的Tabelview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC064B61EC2B87E00D335BE /* Debug */,
+				6DC064B71EC2B87E00D335BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DC064B81EC2B87E00D335BE /* Build configuration list for PBXNativeTarget "Cell中横向的TabelviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC064B91EC2B87E00D335BE /* Debug */,
+				6DC064BA1EC2B87E00D335BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DC064BB1EC2B87E00D335BE /* Build configuration list for PBXNativeTarget "Cell中横向的TabelviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC064BC1EC2B87E00D335BE /* Debug */,
+				6DC064BD1EC2B87E00D335BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DC064801EC2B87D00D335BE /* Project object */;
+}

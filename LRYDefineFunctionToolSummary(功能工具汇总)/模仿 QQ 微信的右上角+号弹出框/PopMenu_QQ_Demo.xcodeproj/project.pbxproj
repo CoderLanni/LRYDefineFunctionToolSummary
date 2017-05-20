@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00C84C91CA8E041001FE5D6 /* XLMenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F00C84C81CA8E041001FE5D6 /* XLMenuViewCell.m */; };
+		F00C84CC1CA8E16D001FE5D6 /* XLPopMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F00C84CB1CA8E16D001FE5D6 /* XLPopMenuViewModel.m */; };
+		F00C84CF1CA8FCC4001FE5D6 /* XLPopMenuViewSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = F00C84CE1CA8FCC4001FE5D6 /* XLPopMenuViewSingleton.m */; };
+		F00C84E31CA91B26001FE5D6 /* menu_addFri@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C84DD1CA91B26001FE5D6 /* menu_addFri@3x.png */; };
+		F00C84E41CA91B26001FE5D6 /* menu_facetoface@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C84DE1CA91B26001FE5D6 /* menu_facetoface@3x.png */; };
+		F00C84E51CA91B26001FE5D6 /* menu_multichat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C84DF1CA91B26001FE5D6 /* menu_multichat@3x.png */; };
+		F00C84E61CA91B26001FE5D6 /* menu_payMoney@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C84E01CA91B26001FE5D6 /* menu_payMoney@3x.png */; };
+		F00C84E71CA91B26001FE5D6 /* menu_QR@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C84E11CA91B26001FE5D6 /* menu_QR@3x.png */; };
+		F00C84E81CA91B26001FE5D6 /* menu_sendFile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C84E21CA91B26001FE5D6 /* menu_sendFile@3x.png */; };
+		F05F1CCA1CA8D22A0040ACFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F05F1CC91CA8D22A0040ACFA /* main.m */; };
+		F05F1CCD1CA8D22A0040ACFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F05F1CCC1CA8D22A0040ACFA /* AppDelegate.m */; };
+		F05F1CD01CA8D22A0040ACFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05F1CCF1CA8D22A0040ACFA /* ViewController.m */; };
+		F05F1CD31CA8D22A0040ACFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05F1CD11CA8D22A0040ACFA /* Main.storyboard */; };
+		F05F1CD51CA8D22A0040ACFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05F1CD41CA8D22A0040ACFA /* Assets.xcassets */; };
+		F05F1CD81CA8D22A0040ACFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05F1CD61CA8D22A0040ACFA /* LaunchScreen.storyboard */; };
+		F05F1CE31CA8D22A0040ACFA /* PopMenu_QQ_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F05F1CE21CA8D22A0040ACFA /* PopMenu_QQ_DemoTests.m */; };
+		F05F1CEE1CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F05F1CED1CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests.m */; };
+		F05F1CFE1CA8D4C40040ACFA /* XLPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F05F1CFD1CA8D4C40040ACFA /* XLPopMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F05F1CDF1CA8D22A0040ACFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F05F1CBD1CA8D22A0040ACFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F05F1CC41CA8D22A0040ACFA;
+			remoteInfo = PopMenu_QQ_Demo;
+		};
+		F05F1CEA1CA8D22A0040ACFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F05F1CBD1CA8D22A0040ACFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F05F1CC41CA8D22A0040ACFA;
+			remoteInfo = PopMenu_QQ_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F00C84C71CA8E041001FE5D6 /* XLMenuViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMenuViewCell.h; sourceTree = "<group>"; };
+		F00C84C81CA8E041001FE5D6 /* XLMenuViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLMenuViewCell.m; sourceTree = "<group>"; };
+		F00C84CA1CA8E16D001FE5D6 /* XLPopMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPopMenuViewModel.h; sourceTree = "<group>"; };
+		F00C84CB1CA8E16D001FE5D6 /* XLPopMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPopMenuViewModel.m; sourceTree = "<group>"; };
+		F00C84CD1CA8FCC4001FE5D6 /* XLPopMenuViewSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPopMenuViewSingleton.h; sourceTree = "<group>"; };
+		F00C84CE1CA8FCC4001FE5D6 /* XLPopMenuViewSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPopMenuViewSingleton.m; sourceTree = "<group>"; };
+		F00C84DD1CA91B26001FE5D6 /* menu_addFri@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_addFri@3x.png"; sourceTree = "<group>"; };
+		F00C84DE1CA91B26001FE5D6 /* menu_facetoface@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_facetoface@3x.png"; sourceTree = "<group>"; };
+		F00C84DF1CA91B26001FE5D6 /* menu_multichat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_multichat@3x.png"; sourceTree = "<group>"; };
+		F00C84E01CA91B26001FE5D6 /* menu_payMoney@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_payMoney@3x.png"; sourceTree = "<group>"; };
+		F00C84E11CA91B26001FE5D6 /* menu_QR@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_QR@3x.png"; sourceTree = "<group>"; };
+		F00C84E21CA91B26001FE5D6 /* menu_sendFile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_sendFile@3x.png"; sourceTree = "<group>"; };
+		F05F1CC51CA8D22A0040ACFA /* PopMenu_QQ_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopMenu_QQ_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05F1CC91CA8D22A0040ACFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F05F1CCB1CA8D22A0040ACFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F05F1CCC1CA8D22A0040ACFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F05F1CCE1CA8D22A0040ACFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F05F1CCF1CA8D22A0040ACFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F05F1CD21CA8D22A0040ACFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F05F1CD41CA8D22A0040ACFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F05F1CD71CA8D22A0040ACFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F05F1CD91CA8D22A0040ACFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05F1CDE1CA8D22A0040ACFA /* PopMenu_QQ_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopMenu_QQ_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05F1CE21CA8D22A0040ACFA /* PopMenu_QQ_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopMenu_QQ_DemoTests.m; sourceTree = "<group>"; };
+		F05F1CE41CA8D22A0040ACFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05F1CE91CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopMenu_QQ_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05F1CED1CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopMenu_QQ_DemoUITests.m; sourceTree = "<group>"; };
+		F05F1CEF1CA8D22A0040ACFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05F1CFC1CA8D4C40040ACFA /* XLPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPopMenuView.h; sourceTree = "<group>"; };
+		F05F1CFD1CA8D4C40040ACFA /* XLPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPopMenuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F05F1CC21CA8D22A0040ACFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05F1CDB1CA8D22A0040ACFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05F1CE61CA8D22A0040ACFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F00C84DC1CA91B19001FE5D6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F00C84DD1CA91B26001FE5D6 /* menu_addFri@3x.png */,
+				F00C84DE1CA91B26001FE5D6 /* menu_facetoface@3x.png */,
+				F00C84DF1CA91B26001FE5D6 /* menu_multichat@3x.png */,
+				F00C84E01CA91B26001FE5D6 /* menu_payMoney@3x.png */,
+				F00C84E11CA91B26001FE5D6 /* menu_QR@3x.png */,
+				F00C84E21CA91B26001FE5D6 /* menu_sendFile@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F05F1CBC1CA8D22A0040ACFA = {
+			isa = PBXGroup;
+			children = (
+				F05F1CC71CA8D22A0040ACFA /* PopMenu_QQ_Demo */,
+				F05F1CE11CA8D22A0040ACFA /* PopMenu_QQ_DemoTests */,
+				F05F1CEC1CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests */,
+				F05F1CC61CA8D22A0040ACFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F05F1CC61CA8D22A0040ACFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F05F1CC51CA8D22A0040ACFA /* PopMenu_QQ_Demo.app */,
+				F05F1CDE1CA8D22A0040ACFA /* PopMenu_QQ_DemoTests.xctest */,
+				F05F1CE91CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F05F1CC71CA8D22A0040ACFA /* PopMenu_QQ_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F05F1CFB1CA8D39F0040ACFA /* PopMenuView */,
+				F05F1CCB1CA8D22A0040ACFA /* AppDelegate.h */,
+				F05F1CCC1CA8D22A0040ACFA /* AppDelegate.m */,
+				F05F1CCE1CA8D22A0040ACFA /* ViewController.h */,
+				F05F1CCF1CA8D22A0040ACFA /* ViewController.m */,
+				F05F1CD11CA8D22A0040ACFA /* Main.storyboard */,
+				F05F1CD41CA8D22A0040ACFA /* Assets.xcassets */,
+				F05F1CD61CA8D22A0040ACFA /* LaunchScreen.storyboard */,
+				F05F1CD91CA8D22A0040ACFA /* Info.plist */,
+				F05F1CC81CA8D22A0040ACFA /* Supporting Files */,
+			);
+			path = PopMenu_QQ_Demo;
+			sourceTree = "<group>";
+		};
+		F05F1CC81CA8D22A0040ACFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F00C84DC1CA91B19001FE5D6 /* Images */,
+				F05F1CC91CA8D22A0040ACFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F05F1CE11CA8D22A0040ACFA /* PopMenu_QQ_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F05F1CE21CA8D22A0040ACFA /* PopMenu_QQ_DemoTests.m */,
+				F05F1CE41CA8D22A0040ACFA /* Info.plist */,
+			);
+			path = PopMenu_QQ_DemoTests;
+			sourceTree = "<group>";
+		};
+		F05F1CEC1CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F05F1CED1CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests.m */,
+				F05F1CEF1CA8D22A0040ACFA /* Info.plist */,
+			);
+			path = PopMenu_QQ_DemoUITests;
+			sourceTree = "<group>";
+		};
+		F05F1CFB1CA8D39F0040ACFA /* PopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				F05F1CFC1CA8D4C40040ACFA /* XLPopMenuView.h */,
+				F05F1CFD1CA8D4C40040ACFA /* XLPopMenuView.m */,
+				F00C84C71CA8E041001FE5D6 /* XLMenuViewCell.h */,
+				F00C84C81CA8E041001FE5D6 /* XLMenuViewCell.m */,
+				F00C84CA1CA8E16D001FE5D6 /* XLPopMenuViewModel.h */,
+				F00C84CB1CA8E16D001FE5D6 /* XLPopMenuViewModel.m */,
+				F00C84CD1CA8FCC4001FE5D6 /* XLPopMenuViewSingleton.h */,
+				F00C84CE1CA8FCC4001FE5D6 /* XLPopMenuViewSingleton.m */,
+			);
+			path = PopMenuView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F05F1CC41CA8D22A0040ACFA /* PopMenu_QQ_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05F1CF21CA8D22A0040ACFA /* Build configuration list for PBXNativeTarget "PopMenu_QQ_Demo" */;
+			buildPhases = (
+				F05F1CC11CA8D22A0040ACFA /* Sources */,
+				F05F1CC21CA8D22A0040ACFA /* Frameworks */,
+				F05F1CC31CA8D22A0040ACFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopMenu_QQ_Demo;
+			productName = PopMenu_QQ_Demo;
+			productReference = F05F1CC51CA8D22A0040ACFA /* PopMenu_QQ_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F05F1CDD1CA8D22A0040ACFA /* PopMenu_QQ_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05F1CF51CA8D22A0040ACFA /* Build configuration list for PBXNativeTarget "PopMenu_QQ_DemoTests" */;
+			buildPhases = (
+				F05F1CDA1CA8D22A0040ACFA /* Sources */,
+				F05F1CDB1CA8D22A0040ACFA /* Frameworks */,
+				F05F1CDC1CA8D22A0040ACFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F05F1CE01CA8D22A0040ACFA /* PBXTargetDependency */,
+			);
+			name = PopMenu_QQ_DemoTests;
+			productName = PopMenu_QQ_DemoTests;
+			productReference = F05F1CDE1CA8D22A0040ACFA /* PopMenu_QQ_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F05F1CE81CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05F1CF81CA8D22A0040ACFA /* Build configuration list for PBXNativeTarget "PopMenu_QQ_DemoUITests" */;
+			buildPhases = (
+				F05F1CE51CA8D22A0040ACFA /* Sources */,
+				F05F1CE61CA8D22A0040ACFA /* Frameworks */,
+				F05F1CE71CA8D22A0040ACFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F05F1CEB1CA8D22A0040ACFA /* PBXTargetDependency */,
+			);
+			name = PopMenu_QQ_DemoUITests;
+			productName = PopMenu_QQ_DemoUITests;
+			productReference = F05F1CE91CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F05F1CBD1CA8D22A0040ACFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yuanxiaolong;
+				TargetAttributes = {
+					F05F1CC41CA8D22A0040ACFA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F05F1CDD1CA8D22A0040ACFA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 25F43M653M;
+						TestTargetID = F05F1CC41CA8D22A0040ACFA;
+					};
+					F05F1CE81CA8D22A0040ACFA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 25F43M653M;
+						TestTargetID = F05F1CC41CA8D22A0040ACFA;
+					};
+				};
+			};
+			buildConfigurationList = F05F1CC01CA8D22A0040ACFA /* Build configuration list for PBXProject "PopMenu_QQ_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F05F1CBC1CA8D22A0040ACFA;
+			productRefGroup = F05F1CC61CA8D22A0040ACFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F05F1CC41CA8D22A0040ACFA /* PopMenu_QQ_Demo */,
+				F05F1CDD1CA8D22A0040ACFA /* PopMenu_QQ_DemoTests */,
+				F05F1CE81CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F05F1CC31CA8D22A0040ACFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05F1CD81CA8D22A0040ACFA /* LaunchScreen.storyboard in Resources */,
+				F00C84E41CA91B26001FE5D6 /* menu_facetoface@3x.png in Resources */,
+				F00C84E81CA91B26001FE5D6 /* menu_sendFile@3x.png in Resources */,
+				F05F1CD51CA8D22A0040ACFA /* Assets.xcassets in Resources */,
+				F00C84E71CA91B26001FE5D6 /* menu_QR@3x.png in Resources */,
+				F00C84E31CA91B26001FE5D6 /* menu_addFri@3x.png in Resources */,
+				F00C84E61CA91B26001FE5D6 /* menu_payMoney@3x.png in Resources */,
+				F00C84E51CA91B26001FE5D6 /* menu_multichat@3x.png in Resources */,
+				F05F1CD31CA8D22A0040ACFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05F1CDC1CA8D22A0040ACFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05F1CE71CA8D22A0040ACFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F05F1CC11CA8D22A0040ACFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05F1CD01CA8D22A0040ACFA /* ViewController.m in Sources */,
+				F00C84C91CA8E041001FE5D6 /* XLMenuViewCell.m in Sources */,
+				F05F1CFE1CA8D4C40040ACFA /* XLPopMenuView.m in Sources */,
+				F00C84CF1CA8FCC4001FE5D6 /* XLPopMenuViewSingleton.m in Sources */,
+				F00C84CC1CA8E16D001FE5D6 /* XLPopMenuViewModel.m in Sources */,
+				F05F1CCD1CA8D22A0040ACFA /* AppDelegate.m in Sources */,
+				F05F1CCA1CA8D22A0040ACFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05F1CDA1CA8D22A0040ACFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05F1CE31CA8D22A0040ACFA /* PopMenu_QQ_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F05F1CE51CA8D22A0040ACFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05F1CEE1CA8D22A0040ACFA /* PopMenu_QQ_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F05F1CE01CA8D22A0040ACFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F05F1CC41CA8D22A0040ACFA /* PopMenu_QQ_Demo */;
+			targetProxy = F05F1CDF1CA8D22A0040ACFA /* PBXContainerItemProxy */;
+		};
+		F05F1CEB1CA8D22A0040ACFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F05F1CC41CA8D22A0040ACFA /* PopMenu_QQ_Demo */;
+			targetProxy = F05F1CEA1CA8D22A0040ACFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F05F1CD11CA8D22A0040ACFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05F1CD21CA8D22A0040ACFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F05F1CD61CA8D22A0040ACFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F05F1CD71CA8D22A0040ACFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F05F1CF01CA8D22A0040ACFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F05F1CF11CA8D22A0040ACFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F05F1CF31CA8D22A0040ACFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PopMenu_QQ_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PopMenu.PopMenu-QQ-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F05F1CF41CA8D22A0040ACFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PopMenu_QQ_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PopMenu.PopMenu-QQ-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F05F1CF61CA8D22A0040ACFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopMenu_QQ_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PopMenu.PopMenu-QQ-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopMenu_QQ_Demo.app/PopMenu_QQ_Demo";
+			};
+			name = Debug;
+		};
+		F05F1CF71CA8D22A0040ACFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopMenu_QQ_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PopMenu.PopMenu-QQ-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopMenu_QQ_Demo.app/PopMenu_QQ_Demo";
+			};
+			name = Release;
+		};
+		F05F1CF91CA8D22A0040ACFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopMenu_QQ_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PopMenu.PopMenu-QQ-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopMenu_QQ_Demo;
+			};
+			name = Debug;
+		};
+		F05F1CFA1CA8D22A0040ACFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopMenu_QQ_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PopMenu.PopMenu-QQ-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopMenu_QQ_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F05F1CC01CA8D22A0040ACFA /* Build configuration list for PBXProject "PopMenu_QQ_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05F1CF01CA8D22A0040ACFA /* Debug */,
+				F05F1CF11CA8D22A0040ACFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05F1CF21CA8D22A0040ACFA /* Build configuration list for PBXNativeTarget "PopMenu_QQ_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05F1CF31CA8D22A0040ACFA /* Debug */,
+				F05F1CF41CA8D22A0040ACFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05F1CF51CA8D22A0040ACFA /* Build configuration list for PBXNativeTarget "PopMenu_QQ_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05F1CF61CA8D22A0040ACFA /* Debug */,
+				F05F1CF71CA8D22A0040ACFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05F1CF81CA8D22A0040ACFA /* Build configuration list for PBXNativeTarget "PopMenu_QQ_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05F1CF91CA8D22A0040ACFA /* Debug */,
+				F05F1CFA1CA8D22A0040ACFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F05F1CBD1CA8D22A0040ACFA /* Project object */;
+}

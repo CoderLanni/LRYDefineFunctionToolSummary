@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DB9CD361EC94EF800286BED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CD351EC94EF800286BED /* main.m */; };
+		6DB9CD391EC94EF800286BED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CD381EC94EF800286BED /* AppDelegate.m */; };
+		6DB9CD3C1EC94EF800286BED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CD3B1EC94EF800286BED /* ViewController.m */; };
+		6DB9CD3F1EC94EF800286BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9CD3D1EC94EF800286BED /* Main.storyboard */; };
+		6DB9CD411EC94EF800286BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9CD401EC94EF800286BED /* Assets.xcassets */; };
+		6DB9CD441EC94EF800286BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9CD421EC94EF800286BED /* LaunchScreen.storyboard */; };
+		6DB9CD4F1EC94EF800286BED /* _DTouchMyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CD4E1EC94EF800286BED /* _DTouchMyDemoTests.m */; };
+		6DB9CD5A1EC94EF800286BED /* _DTouchMyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CD591EC94EF800286BED /* _DTouchMyDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DB9CD4B1EC94EF800286BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9CD291EC94EF700286BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB9CD301EC94EF800286BED;
+			remoteInfo = 3DTouchMyDemo;
+		};
+		6DB9CD561EC94EF800286BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9CD291EC94EF700286BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB9CD301EC94EF800286BED;
+			remoteInfo = 3DTouchMyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DB9CD311EC94EF800286BED /* 3DTouchMyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchMyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB9CD351EC94EF800286BED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DB9CD371EC94EF800286BED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DB9CD381EC94EF800286BED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DB9CD3A1EC94EF800286BED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DB9CD3B1EC94EF800286BED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DB9CD3E1EC94EF800286BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DB9CD401EC94EF800286BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DB9CD431EC94EF800286BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DB9CD451EC94EF800286BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB9CD4A1EC94EF800286BED /* 3DTouchMyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchMyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB9CD4E1EC94EF800286BED /* _DTouchMyDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DTouchMyDemoTests.m; sourceTree = "<group>"; };
+		6DB9CD501EC94EF800286BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB9CD551EC94EF800286BED /* 3DTouchMyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchMyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB9CD591EC94EF800286BED /* _DTouchMyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DTouchMyDemoUITests.m; sourceTree = "<group>"; };
+		6DB9CD5B1EC94EF800286BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB9CD2E1EC94EF800286BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CD471EC94EF800286BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CD521EC94EF800286BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DB9CD281EC94EF700286BED = {
+			isa = PBXGroup;
+			children = (
+				6DB9CD331EC94EF800286BED /* 3DTouchMyDemo */,
+				6DB9CD4D1EC94EF800286BED /* 3DTouchMyDemoTests */,
+				6DB9CD581EC94EF800286BED /* 3DTouchMyDemoUITests */,
+				6DB9CD321EC94EF800286BED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DB9CD321EC94EF800286BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9CD311EC94EF800286BED /* 3DTouchMyDemo.app */,
+				6DB9CD4A1EC94EF800286BED /* 3DTouchMyDemoTests.xctest */,
+				6DB9CD551EC94EF800286BED /* 3DTouchMyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB9CD331EC94EF800286BED /* 3DTouchMyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9CD371EC94EF800286BED /* AppDelegate.h */,
+				6DB9CD381EC94EF800286BED /* AppDelegate.m */,
+				6DB9CD3A1EC94EF800286BED /* ViewController.h */,
+				6DB9CD3B1EC94EF800286BED /* ViewController.m */,
+				6DB9CD3D1EC94EF800286BED /* Main.storyboard */,
+				6DB9CD401EC94EF800286BED /* Assets.xcassets */,
+				6DB9CD421EC94EF800286BED /* LaunchScreen.storyboard */,
+				6DB9CD451EC94EF800286BED /* Info.plist */,
+				6DB9CD341EC94EF800286BED /* Supporting Files */,
+			);
+			path = 3DTouchMyDemo;
+			sourceTree = "<group>";
+		};
+		6DB9CD341EC94EF800286BED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9CD351EC94EF800286BED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DB9CD4D1EC94EF800286BED /* 3DTouchMyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9CD4E1EC94EF800286BED /* _DTouchMyDemoTests.m */,
+				6DB9CD501EC94EF800286BED /* Info.plist */,
+			);
+			path = 3DTouchMyDemoTests;
+			sourceTree = "<group>";
+		};
+		6DB9CD581EC94EF800286BED /* 3DTouchMyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9CD591EC94EF800286BED /* _DTouchMyDemoUITests.m */,
+				6DB9CD5B1EC94EF800286BED /* Info.plist */,
+			);
+			path = 3DTouchMyDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DB9CD301EC94EF800286BED /* 3DTouchMyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB9CD5E1EC94EF800286BED /* Build configuration list for PBXNativeTarget "3DTouchMyDemo" */;
+			buildPhases = (
+				6DB9CD2D1EC94EF800286BED /* Sources */,
+				6DB9CD2E1EC94EF800286BED /* Frameworks */,
+				6DB9CD2F1EC94EF800286BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DTouchMyDemo;
+			productName = 3DTouchMyDemo;
+			productReference = 6DB9CD311EC94EF800286BED /* 3DTouchMyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DB9CD491EC94EF800286BED /* 3DTouchMyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB9CD611EC94EF800286BED /* Build configuration list for PBXNativeTarget "3DTouchMyDemoTests" */;
+			buildPhases = (
+				6DB9CD461EC94EF800286BED /* Sources */,
+				6DB9CD471EC94EF800286BED /* Frameworks */,
+				6DB9CD481EC94EF800286BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB9CD4C1EC94EF800286BED /* PBXTargetDependency */,
+			);
+			name = 3DTouchMyDemoTests;
+			productName = 3DTouchMyDemoTests;
+			productReference = 6DB9CD4A1EC94EF800286BED /* 3DTouchMyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DB9CD541EC94EF800286BED /* 3DTouchMyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB9CD641EC94EF800286BED /* Build configuration list for PBXNativeTarget "3DTouchMyDemoUITests" */;
+			buildPhases = (
+				6DB9CD511EC94EF800286BED /* Sources */,
+				6DB9CD521EC94EF800286BED /* Frameworks */,
+				6DB9CD531EC94EF800286BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB9CD571EC94EF800286BED /* PBXTargetDependency */,
+			);
+			name = 3DTouchMyDemoUITests;
+			productName = 3DTouchMyDemoUITests;
+			productReference = 6DB9CD551EC94EF800286BED /* 3DTouchMyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9CD291EC94EF700286BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LRY;
+				TargetAttributes = {
+					6DB9CD301EC94EF800286BED = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JNFXE8VMGX;
+						ProvisioningStyle = Automatic;
+					};
+					6DB9CD491EC94EF800286BED = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JNFXE8VMGX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DB9CD301EC94EF800286BED;
+					};
+					6DB9CD541EC94EF800286BED = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JNFXE8VMGX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DB9CD301EC94EF800286BED;
+					};
+				};
+			};
+			buildConfigurationList = 6DB9CD2C1EC94EF700286BED /* Build configuration list for PBXProject "3DTouchMyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DB9CD281EC94EF700286BED;
+			productRefGroup = 6DB9CD321EC94EF800286BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB9CD301EC94EF800286BED /* 3DTouchMyDemo */,
+				6DB9CD491EC94EF800286BED /* 3DTouchMyDemoTests */,
+				6DB9CD541EC94EF800286BED /* 3DTouchMyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB9CD2F1EC94EF800286BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB9CD441EC94EF800286BED /* LaunchScreen.storyboard in Resources */,
+				6DB9CD411EC94EF800286BED /* Assets.xcassets in Resources */,
+				6DB9CD3F1EC94EF800286BED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CD481EC94EF800286BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CD531EC94EF800286BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DB9CD2D1EC94EF800286BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB9CD3C1EC94EF800286BED /* ViewController.m in Sources */,
+				6DB9CD391EC94EF800286BED /* AppDelegate.m in Sources */,
+				6DB9CD361EC94EF800286BED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CD461EC94EF800286BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB9CD4F1EC94EF800286BED /* _DTouchMyDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB9CD511EC94EF800286BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB9CD5A1EC94EF800286BED /* _DTouchMyDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DB9CD4C1EC94EF800286BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB9CD301EC94EF800286BED /* 3DTouchMyDemo */;
+			targetProxy = 6DB9CD4B1EC94EF800286BED /* PBXContainerItemProxy */;
+		};
+		6DB9CD571EC94EF800286BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB9CD301EC94EF800286BED /* 3DTouchMyDemo */;
+			targetProxy = 6DB9CD561EC94EF800286BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DB9CD3D1EC94EF800286BED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB9CD3E1EC94EF800286BED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DB9CD421EC94EF800286BED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB9CD431EC94EF800286BED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DB9CD5C1EC94EF800286BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DB9CD5D1EC94EF800286BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DB9CD5F1EC94EF800286BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = 3DTouchMyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.-DTouchMyDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DB9CD601EC94EF800286BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = 3DTouchMyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.-DTouchMyDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DB9CD621EC94EF800286BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = 3DTouchMyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.-DTouchMyDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DTouchMyDemo.app/3DTouchMyDemo";
+			};
+			name = Debug;
+		};
+		6DB9CD631EC94EF800286BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = 3DTouchMyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.-DTouchMyDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DTouchMyDemo.app/3DTouchMyDemo";
+			};
+			name = Release;
+		};
+		6DB9CD651EC94EF800286BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = 3DTouchMyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.-DTouchMyDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3DTouchMyDemo;
+			};
+			name = Debug;
+		};
+		6DB9CD661EC94EF800286BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JNFXE8VMGX;
+				INFOPLIST_FILE = 3DTouchMyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.-DTouchMyDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3DTouchMyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DB9CD2C1EC94EF700286BED /* Build configuration list for PBXProject "3DTouchMyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9CD5C1EC94EF800286BED /* Debug */,
+				6DB9CD5D1EC94EF800286BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB9CD5E1EC94EF800286BED /* Build configuration list for PBXNativeTarget "3DTouchMyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9CD5F1EC94EF800286BED /* Debug */,
+				6DB9CD601EC94EF800286BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DB9CD611EC94EF800286BED /* Build configuration list for PBXNativeTarget "3DTouchMyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9CD621EC94EF800286BED /* Debug */,
+				6DB9CD631EC94EF800286BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DB9CD641EC94EF800286BED /* Build configuration list for PBXNativeTarget "3DTouchMyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB9CD651EC94EF800286BED /* Debug */,
+				6DB9CD661EC94EF800286BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9CD291EC94EF700286BED /* Project object */;
+}

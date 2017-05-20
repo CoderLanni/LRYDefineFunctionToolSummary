@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		303C15171CCB559000BAE486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C15161CCB559000BAE486 /* main.m */; };
+		303C151A1CCB559000BAE486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C15191CCB559000BAE486 /* AppDelegate.m */; };
+		303C151D1CCB559000BAE486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C151C1CCB559000BAE486 /* ViewController.m */; };
+		303C15201CCB559100BAE486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303C151E1CCB559100BAE486 /* Main.storyboard */; };
+		303C15221CCB559100BAE486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303C15211CCB559100BAE486 /* Assets.xcassets */; };
+		303C15251CCB559100BAE486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303C15231CCB559100BAE486 /* LaunchScreen.storyboard */; };
+		303C15301CCB559100BAE486 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C152F1CCB559100BAE486 /* _____Tests.m */; };
+		303C153B1CCB559200BAE486 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C153A1CCB559200BAE486 /* _____UITests.m */; };
+		303C154A1CCB56DE00BAE486 /* CaptchaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C15491CCB56DE00BAE486 /* CaptchaView.m */; };
+		303C154D1CCB571B00BAE486 /* IdenCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C154C1CCB571B00BAE486 /* IdenCodeViewController.m */; };
+		303C15511CCB583800BAE486 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C15501CCB583800BAE486 /* UIColor+Hex.m */; };
+		303C156F1CCB5EF300BAE486 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 303C15531CCB5EF300BAE486 /* LICENSE */; };
+		303C15701CCB5EF300BAE486 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C15561CCB5EF300BAE486 /* MASCompositeConstraint.m */; };
+		303C15711CCB5EF300BAE486 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C15591CCB5EF300BAE486 /* MASConstraint.m */; };
+		303C15721CCB5EF300BAE486 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C155B1CCB5EF300BAE486 /* MASConstraintMaker.m */; };
+		303C15731CCB5EF300BAE486 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C155D1CCB5EF300BAE486 /* MASLayoutConstraint.m */; };
+		303C15741CCB5EF300BAE486 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C15611CCB5EF300BAE486 /* MASViewAttribute.m */; };
+		303C15751CCB5EF300BAE486 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C15631CCB5EF300BAE486 /* MASViewConstraint.m */; };
+		303C15761CCB5EF300BAE486 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C15651CCB5EF300BAE486 /* NSArray+MASAdditions.m */; };
+		303C15771CCB5EF300BAE486 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C15681CCB5EF300BAE486 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		303C15781CCB5EF300BAE486 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C156A1CCB5EF300BAE486 /* View+MASAdditions.m */; };
+		303C15791CCB5EF300BAE486 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C156D1CCB5EF300BAE486 /* ViewController+MASAdditions.m */; };
+		303C157A1CCB5EF300BAE486 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 303C156E1CCB5EF300BAE486 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		303C152C1CCB559100BAE486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303C150A1CCB558F00BAE486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303C15111CCB558F00BAE486;
+			remoteInfo = "封装验证码";
+		};
+		303C15371CCB559100BAE486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303C150A1CCB558F00BAE486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303C15111CCB558F00BAE486;
+			remoteInfo = "封装验证码";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		303C15121CCB558F00BAE486 /* 封装验证码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "封装验证码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303C15161CCB559000BAE486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		303C15181CCB559000BAE486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		303C15191CCB559000BAE486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		303C151B1CCB559000BAE486 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		303C151C1CCB559000BAE486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		303C151F1CCB559100BAE486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		303C15211CCB559100BAE486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303C15241CCB559100BAE486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		303C15261CCB559100BAE486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303C152B1CCB559100BAE486 /* 封装验证码Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "封装验证码Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303C152F1CCB559100BAE486 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		303C15311CCB559100BAE486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303C15361CCB559100BAE486 /* 封装验证码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "封装验证码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303C153A1CCB559200BAE486 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		303C153C1CCB559200BAE486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303C15481CCB56DE00BAE486 /* CaptchaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptchaView.h; sourceTree = "<group>"; };
+		303C15491CCB56DE00BAE486 /* CaptchaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptchaView.m; sourceTree = "<group>"; };
+		303C154B1CCB571B00BAE486 /* IdenCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdenCodeViewController.h; sourceTree = "<group>"; };
+		303C154C1CCB571B00BAE486 /* IdenCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdenCodeViewController.m; sourceTree = "<group>"; };
+		303C154F1CCB583800BAE486 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		303C15501CCB583800BAE486 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		303C15531CCB5EF300BAE486 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		303C15551CCB5EF300BAE486 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		303C15561CCB5EF300BAE486 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		303C15571CCB5EF300BAE486 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		303C15581CCB5EF300BAE486 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		303C15591CCB5EF300BAE486 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		303C155A1CCB5EF300BAE486 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		303C155B1CCB5EF300BAE486 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		303C155C1CCB5EF300BAE486 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		303C155D1CCB5EF300BAE486 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		303C155E1CCB5EF300BAE486 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		303C155F1CCB5EF300BAE486 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		303C15601CCB5EF300BAE486 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		303C15611CCB5EF300BAE486 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		303C15621CCB5EF300BAE486 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		303C15631CCB5EF300BAE486 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		303C15641CCB5EF300BAE486 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		303C15651CCB5EF300BAE486 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		303C15661CCB5EF300BAE486 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		303C15671CCB5EF300BAE486 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		303C15681CCB5EF300BAE486 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		303C15691CCB5EF300BAE486 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		303C156A1CCB5EF300BAE486 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		303C156B1CCB5EF300BAE486 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		303C156C1CCB5EF300BAE486 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		303C156D1CCB5EF300BAE486 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		303C156E1CCB5EF300BAE486 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303C150F1CCB558F00BAE486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303C15281CCB559100BAE486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303C15331CCB559100BAE486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303C15091CCB558F00BAE486 = {
+			isa = PBXGroup;
+			children = (
+				303C15141CCB559000BAE486 /* 封装验证码 */,
+				303C152E1CCB559100BAE486 /* 封装验证码Tests */,
+				303C15391CCB559200BAE486 /* 封装验证码UITests */,
+				303C15131CCB558F00BAE486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		303C15131CCB558F00BAE486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303C15121CCB558F00BAE486 /* 封装验证码.app */,
+				303C152B1CCB559100BAE486 /* 封装验证码Tests.xctest */,
+				303C15361CCB559100BAE486 /* 封装验证码UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303C15141CCB559000BAE486 /* 封装验证码 */ = {
+			isa = PBXGroup;
+			children = (
+				303C154E1CCB572500BAE486 /* 验证码 */,
+				303C15181CCB559000BAE486 /* AppDelegate.h */,
+				303C15191CCB559000BAE486 /* AppDelegate.m */,
+				303C151B1CCB559000BAE486 /* ViewController.h */,
+				303C151C1CCB559000BAE486 /* ViewController.m */,
+				303C151E1CCB559100BAE486 /* Main.storyboard */,
+				303C15211CCB559100BAE486 /* Assets.xcassets */,
+				303C15231CCB559100BAE486 /* LaunchScreen.storyboard */,
+				303C15261CCB559100BAE486 /* Info.plist */,
+				303C15151CCB559000BAE486 /* Supporting Files */,
+			);
+			path = "封装验证码";
+			sourceTree = "<group>";
+		};
+		303C15151CCB559000BAE486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				303C15161CCB559000BAE486 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		303C152E1CCB559100BAE486 /* 封装验证码Tests */ = {
+			isa = PBXGroup;
+			children = (
+				303C152F1CCB559100BAE486 /* _____Tests.m */,
+				303C15311CCB559100BAE486 /* Info.plist */,
+			);
+			path = "封装验证码Tests";
+			sourceTree = "<group>";
+		};
+		303C15391CCB559200BAE486 /* 封装验证码UITests */ = {
+			isa = PBXGroup;
+			children = (
+				303C153A1CCB559200BAE486 /* _____UITests.m */,
+				303C153C1CCB559200BAE486 /* Info.plist */,
+			);
+			path = "封装验证码UITests";
+			sourceTree = "<group>";
+		};
+		303C154E1CCB572500BAE486 /* 验证码 */ = {
+			isa = PBXGroup;
+			children = (
+				303C15521CCB5EF300BAE486 /* Masonry */,
+				303C154F1CCB583800BAE486 /* UIColor+Hex.h */,
+				303C15501CCB583800BAE486 /* UIColor+Hex.m */,
+				303C15481CCB56DE00BAE486 /* CaptchaView.h */,
+				303C15491CCB56DE00BAE486 /* CaptchaView.m */,
+				303C154B1CCB571B00BAE486 /* IdenCodeViewController.h */,
+				303C154C1CCB571B00BAE486 /* IdenCodeViewController.m */,
+			);
+			name = "验证码";
+			sourceTree = "<group>";
+		};
+		303C15521CCB5EF300BAE486 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				303C15531CCB5EF300BAE486 /* LICENSE */,
+				303C15541CCB5EF300BAE486 /* Masonry */,
+				303C156E1CCB5EF300BAE486 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		303C15541CCB5EF300BAE486 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				303C15551CCB5EF300BAE486 /* MASCompositeConstraint.h */,
+				303C15561CCB5EF300BAE486 /* MASCompositeConstraint.m */,
+				303C15571CCB5EF300BAE486 /* MASConstraint+Private.h */,
+				303C15581CCB5EF300BAE486 /* MASConstraint.h */,
+				303C15591CCB5EF300BAE486 /* MASConstraint.m */,
+				303C155A1CCB5EF300BAE486 /* MASConstraintMaker.h */,
+				303C155B1CCB5EF300BAE486 /* MASConstraintMaker.m */,
+				303C155C1CCB5EF300BAE486 /* MASLayoutConstraint.h */,
+				303C155D1CCB5EF300BAE486 /* MASLayoutConstraint.m */,
+				303C155E1CCB5EF300BAE486 /* Masonry.h */,
+				303C155F1CCB5EF300BAE486 /* MASUtilities.h */,
+				303C15601CCB5EF300BAE486 /* MASViewAttribute.h */,
+				303C15611CCB5EF300BAE486 /* MASViewAttribute.m */,
+				303C15621CCB5EF300BAE486 /* MASViewConstraint.h */,
+				303C15631CCB5EF300BAE486 /* MASViewConstraint.m */,
+				303C15641CCB5EF300BAE486 /* NSArray+MASAdditions.h */,
+				303C15651CCB5EF300BAE486 /* NSArray+MASAdditions.m */,
+				303C15661CCB5EF300BAE486 /* NSArray+MASShorthandAdditions.h */,
+				303C15671CCB5EF300BAE486 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				303C15681CCB5EF300BAE486 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				303C15691CCB5EF300BAE486 /* View+MASAdditions.h */,
+				303C156A1CCB5EF300BAE486 /* View+MASAdditions.m */,
+				303C156B1CCB5EF300BAE486 /* View+MASShorthandAdditions.h */,
+				303C156C1CCB5EF300BAE486 /* ViewController+MASAdditions.h */,
+				303C156D1CCB5EF300BAE486 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303C15111CCB558F00BAE486 /* 封装验证码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303C153F1CCB559200BAE486 /* Build configuration list for PBXNativeTarget "封装验证码" */;
+			buildPhases = (
+				303C150E1CCB558F00BAE486 /* Sources */,
+				303C150F1CCB558F00BAE486 /* Frameworks */,
+				303C15101CCB558F00BAE486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "封装验证码";
+			productName = "封装验证码";
+			productReference = 303C15121CCB558F00BAE486 /* 封装验证码.app */;
+			productType = "com.apple.product-type.application";
+		};
+		303C152A1CCB559100BAE486 /* 封装验证码Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303C15421CCB559200BAE486 /* Build configuration list for PBXNativeTarget "封装验证码Tests" */;
+			buildPhases = (
+				303C15271CCB559100BAE486 /* Sources */,
+				303C15281CCB559100BAE486 /* Frameworks */,
+				303C15291CCB559100BAE486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303C152D1CCB559100BAE486 /* PBXTargetDependency */,
+			);
+			name = "封装验证码Tests";
+			productName = "封装验证码Tests";
+			productReference = 303C152B1CCB559100BAE486 /* 封装验证码Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		303C15351CCB559100BAE486 /* 封装验证码UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303C15451CCB559200BAE486 /* Build configuration list for PBXNativeTarget "封装验证码UITests" */;
+			buildPhases = (
+				303C15321CCB559100BAE486 /* Sources */,
+				303C15331CCB559100BAE486 /* Frameworks */,
+				303C15341CCB559100BAE486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303C15381CCB559100BAE486 /* PBXTargetDependency */,
+			);
+			name = "封装验证码UITests";
+			productName = "封装验证码UITests";
+			productReference = 303C15361CCB559100BAE486 /* 封装验证码UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303C150A1CCB558F00BAE486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "贺乾龙";
+				TargetAttributes = {
+					303C15111CCB558F00BAE486 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7Y7R4AD286;
+					};
+					303C152A1CCB559100BAE486 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7Y7R4AD286;
+						TestTargetID = 303C15111CCB558F00BAE486;
+					};
+					303C15351CCB559100BAE486 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7Y7R4AD286;
+						TestTargetID = 303C15111CCB558F00BAE486;
+					};
+				};
+			};
+			buildConfigurationList = 303C150D1CCB558F00BAE486 /* Build configuration list for PBXProject "封装验证码" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303C15091CCB558F00BAE486;
+			productRefGroup = 303C15131CCB558F00BAE486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303C15111CCB558F00BAE486 /* 封装验证码 */,
+				303C152A1CCB559100BAE486 /* 封装验证码Tests */,
+				303C15351CCB559100BAE486 /* 封装验证码UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303C15101CCB558F00BAE486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303C15251CCB559100BAE486 /* LaunchScreen.storyboard in Resources */,
+				303C15221CCB559100BAE486 /* Assets.xcassets in Resources */,
+				303C156F1CCB5EF300BAE486 /* LICENSE in Resources */,
+				303C15201CCB559100BAE486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303C15291CCB559100BAE486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303C15341CCB559100BAE486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303C150E1CCB558F00BAE486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303C15711CCB5EF300BAE486 /* MASConstraint.m in Sources */,
+				303C15741CCB5EF300BAE486 /* MASViewAttribute.m in Sources */,
+				303C15791CCB5EF300BAE486 /* ViewController+MASAdditions.m in Sources */,
+				303C15761CCB5EF300BAE486 /* NSArray+MASAdditions.m in Sources */,
+				303C151D1CCB559000BAE486 /* ViewController.m in Sources */,
+				303C15751CCB5EF300BAE486 /* MASViewConstraint.m in Sources */,
+				303C15731CCB5EF300BAE486 /* MASLayoutConstraint.m in Sources */,
+				303C15511CCB583800BAE486 /* UIColor+Hex.m in Sources */,
+				303C154D1CCB571B00BAE486 /* IdenCodeViewController.m in Sources */,
+				303C15781CCB5EF300BAE486 /* View+MASAdditions.m in Sources */,
+				303C15701CCB5EF300BAE486 /* MASCompositeConstraint.m in Sources */,
+				303C157A1CCB5EF300BAE486 /* README.md in Sources */,
+				303C15771CCB5EF300BAE486 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				303C15721CCB5EF300BAE486 /* MASConstraintMaker.m in Sources */,
+				303C151A1CCB559000BAE486 /* AppDelegate.m in Sources */,
+				303C15171CCB559000BAE486 /* main.m in Sources */,
+				303C154A1CCB56DE00BAE486 /* CaptchaView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303C15271CCB559100BAE486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303C15301CCB559100BAE486 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303C15321CCB559100BAE486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303C153B1CCB559200BAE486 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303C152D1CCB559100BAE486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 303C15111CCB558F00BAE486 /* 封装验证码 */;
+			targetProxy = 303C152C1CCB559100BAE486 /* PBXContainerItemProxy */;
+		};
+		303C15381CCB559100BAE486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 303C15111CCB558F00BAE486 /* 封装验证码 */;
+			targetProxy = 303C15371CCB559100BAE486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		303C151E1CCB559100BAE486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303C151F1CCB559100BAE486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		303C15231CCB559100BAE486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303C15241CCB559100BAE486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		303C153D1CCB559200BAE486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303C153E1CCB559200BAE486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303C15401CCB559200BAE486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "封装验证码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zoesap.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		303C15411CCB559200BAE486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "封装验证码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zoesap.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		303C15431CCB559200BAE486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "封装验证码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zoesap.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/封装验证码.app/封装验证码";
+			};
+			name = Debug;
+		};
+		303C15441CCB559200BAE486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "封装验证码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zoesap.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/封装验证码.app/封装验证码";
+			};
+			name = Release;
+		};
+		303C15461CCB559200BAE486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "封装验证码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zoesap.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "封装验证码";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		303C15471CCB559200BAE486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "封装验证码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zoesap.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "封装验证码";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303C150D1CCB558F00BAE486 /* Build configuration list for PBXProject "封装验证码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303C153D1CCB559200BAE486 /* Debug */,
+				303C153E1CCB559200BAE486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303C153F1CCB559200BAE486 /* Build configuration list for PBXNativeTarget "封装验证码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303C15401CCB559200BAE486 /* Debug */,
+				303C15411CCB559200BAE486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		303C15421CCB559200BAE486 /* Build configuration list for PBXNativeTarget "封装验证码Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303C15431CCB559200BAE486 /* Debug */,
+				303C15441CCB559200BAE486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		303C15451CCB559200BAE486 /* Build configuration list for PBXNativeTarget "封装验证码UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303C15461CCB559200BAE486 /* Debug */,
+				303C15471CCB559200BAE486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303C150A1CCB558F00BAE486 /* Project object */;
+}

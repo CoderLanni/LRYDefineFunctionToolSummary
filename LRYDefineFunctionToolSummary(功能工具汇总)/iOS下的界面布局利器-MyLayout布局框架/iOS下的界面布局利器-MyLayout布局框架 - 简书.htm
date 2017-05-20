@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://www.jianshu.com/p/603fd470bbb0 -->
+<html><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<script type="text/javascript" src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/1255494d3a"></script><script src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/nr-1026.min.js"></script><script src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/push.js"></script><script src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/hm.js"></script><script async="" src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1255494d3a","applicationID":"15702971","transactionName":"e1daR0JWVV9RER9ZWkxdRxxDUVZE","queueTime":1,"applicationTime":45,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="description" content="Swift:TangramKit: https://github.com/youngsoft/TangramKit OC:MyLayout: https://github.com/youngsoft/MyLinearLayout 简介 MyLayout是一套iOS界面视图布局框架。其内核是基于对UIView的layoutSubviews方法的重载以及对子视图的bounds和center属性的...">
+  <meta property="wb:webmaster" content="294ec9de89e7fadb">
+  <meta property="qc:admins" content="104102651453316562112116375">
+  <meta property="qc:admins" content="11635613706305617">
+  <meta property="qc:admins" content="1163561616621163056375">
+  <meta name="google-site-verification" content="cV4-qkUJZR6gmFeajx_UyPe47GW9vY6cnCrYtCHYNh4">
+  <meta name="google-site-verification" content="HF7lfF8YEGs1qtCE-kPml8Z469e2RHhGajy6JPVy5XI">
+  <meta http-equiv="mobile-agent" content="format=html5; url=http://www.jianshu.com/p/603fd470bbb0">
+
+  <!-- Apple -->
+  <meta name="apple-mobile-web-app-title" content="简书">
+
+    <!--  Meta for Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=888237539, app-argument=jianshu://notes/9983157">
+  <!-- End -->
+
+  <!--  Meta for Twitter Card -->
+  <meta content="summary" property="twitter:card">
+  <meta content="@jianshucom" property="twitter:site">
+  <meta content="iOS下的界面布局利器-MyLayout布局框架" property="twitter:title">
+  <meta content="Swift:TangramKit: https://github.com/youngsoft/TangramKit OC:MyLayout: https://github.com/youngsoft/MyLinearLayout 简介 MyLayout是一套iOS界面视图布局框架。其内核是基于对UIView的layoutSubviews方法的重载以及对子视图的bounds和center属性的设置而实现的。MyLayout功能强大而且简单易用，它集成了iOS Autolayout和Size Classes、android的5大布局体系、HTML/CSS的浮动定位技术以及flex-box和b..." property="twitter:description">
+  <meta content="http://www.jianshu.com/p/603fd470bbb0" property="twitter:url">
+  <!-- End -->
+
+  <!--  Meta for OpenGraph -->
+  <meta property="fb:app_id" content="865829053512461">
+  <meta property="og:site_name" content="简书">
+  <meta property="og:title" content="iOS下的界面布局利器-MyLayout布局框架">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.jianshu.com/p/603fd470bbb0">
+  <meta property="og:description" content="Swift:TangramKit: https://github.com/youngsoft/TangramKit OC:MyLayout: https://github.com/youngso...">
+  <!-- End -->
+
+  <!--  Meta for Facebook Applinks -->
+  <meta property="al:ios:url" content="jianshu://notes/9983157">
+  <meta property="al:ios:app_store_id" content="888237539">
+  <meta property="al:ios:app_name" content="简书">
+
+  <meta property="al:android:url" content="jianshu://notes/9983157">
+  <meta property="al:android:package" content="com.jianshu.haruki">
+  <meta property="al:android:app_name" content="简书">
+  <!-- End -->
+
+
+    <title>iOS下的界面布局利器-MyLayout布局框架 - 简书</title>
+
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="133VWx++s1s9VhJUBePWhyyRlcGfN/4ViTBmS2zM7XDg2LA8izWPjHnQ3dh/T1YVI/jOLvzyBH8B+OB5BQ2bKw==">
+
+  <link rel="stylesheet" media="all" href="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/web-b5a90e7297a723b82f9e.css">
+  
+  <link rel="stylesheet" media="all" href="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/entry-b5a90e7297a723b82f9e.css">
+
+  <link href="http://cdn2.jianshu.io/assets/favicons/favicon-783beb88ed621ceab614de960376ac0c.ico" rel="icon">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/57-47624b2e2161e8eb144462c85db0a5ff.png" sizes="57x57">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/72-c00cde7cf98fc49e50cbb3ee1dcd5804.png" sizes="72x72">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/76-e8af0bdeaf1ba31e303b1fde8b5e66c4.png" sizes="76x76">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/114-f4c78569bbf1977e8382a5fd90c9237a.png" sizes="114x114">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/120-cf10c3711dba269522743729efe66bbc.png" sizes="120x120">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn2.jianshu.io/assets/apple-touch-icons/152-7bd60457b5f3ecbf1343f0e6241be4f8.png" sizes="152x152">
+</head>
+
+  <body lang="zh-CN" class="reader-black-font">
+    <!-- 全局顶部导航栏 -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="width-limit">
+    <!-- 左上方 Logo -->
+    <a class="logo" href="http://www.jianshu.com/"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/logo-58fd04f6f0de908401aa561cda6a0688.png" alt="Logo"></a>
+
+    <!-- 右上角 -->
+      <!-- 未登录显示登录/注册/写文章 -->
+      <a class="btn write-btn" target="_blank" href="http://www.jianshu.com/writer#/">
+        <i class="iconfont ic-write"></i>写文章
+</a>      <a class="btn sign-up" href="http://www.jianshu.com/sign_up">注册</a>
+      <a class="btn log-in" href="http://www.jianshu.com/sign_in">登录</a>
+
+    <!-- 如果用户登录，显示下拉菜单 -->
+
+    <div class="style-mode"><a class="style-mode-btn"><i class="iconfont ic-navigation-mode"></i></a> <div class="popover-modal" style="left: 0px; display: none;"><div class="meta"><i class="iconfont ic-navigation-night"></i><span>夜间模式</span></div> <div class="switch day-night-group"><a class="switch-btn">开</a> <a class="switch-btn active">关</a></div> <hr> <div class="switch font-family-group"><a class="switch-btn font-song">宋体</a> <a class="switch-btn font-hei active">黑体</a></div> <div class="switch"><a class="switch-btn active">简</a> <a class="switch-btn">繁</a></div></div></div>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav">
+            <li class="">
+              <a href="http://www.jianshu.com/">
+                <span class="menu-text">首页</span><i class="iconfont ic-navigation-discover menu-icon"></i>
+</a>            </li>
+            <li class="">
+              <a class="app-download-btn" href="http://www.jianshu.com/apps"><span class="menu-text">下载App</span><i class="iconfont ic-navigation-download menu-icon"></i></a>
+            </li>
+          <li class="search">
+            <form target="_blank" action="http://www.jianshu.com/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+              <input type="text" name="q" id="q" value="" placeholder="搜索" class="search-input">
+              <a class="search-btn" href="javascript:void(null)"><i class="iconfont ic-search"></i></a>
+              <!-- <div id="navbar-trending-search"></div> -->
+</form>          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="note">
+  <div class="post">
+    <div class="article">
+        <h1 class="title">iOS下的界面布局利器-MyLayout布局框架</h1>
+
+        <!-- 作者区域 -->
+        <div class="author">
+          <a class="avatar" href="http://www.jianshu.com/u/3c9287519f58">
+            <img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/3fc4d9e07a8a" alt="144">
+</a>          <div class="info">
+            <span class="tag">作者</span>
+            <span class="name"><a href="http://www.jianshu.com/u/3c9287519f58">欧阳大哥2013</a></span>
+            <!-- 关注用户按钮 -->
+            <a class="btn btn-success follow"><i class="iconfont ic-follow"></i><span>关注</span></a>
+            <!-- 文章数据信息 -->
+            <div class="meta">
+              <!-- 如果文章更新时间大于发布时间，那么使用 tooltip 显示更新时间 -->
+                <span class="publish-time" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="最后编辑于 2017.04.11 16:57">2017.03.10 09:02*</span>
+              <span class="wordage">字数 2678</span>
+            <span class="views-count">阅读 898</span><span class="comments-count">评论 9</span><span class="likes-count">喜欢 31</span></div>
+          </div>
+          <!-- 如果是当前作者，加入编辑按钮 -->
+        </div>
+        <!-- -->
+
+        <!-- 文章内容 -->
+        <div class="show-content">
+          <div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/MyLayout.png" data-original-src="https://raw.githubusercontent.com/youngsoft/MyLinearLayout/master/MyLayout/MyLayout.png" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div>
+<ul>
+<li>
+<strong>Swift:TangramKit:</strong> <a href="https://github.com/youngsoft/TangramKit" target="_blank">https://github.com/youngsoft/TangramKit</a>
+</li>
+<li>
+<strong>OC:MyLayout:</strong> <a href="https://github.com/youngsoft/MyLinearLayout" target="_blank">https://github.com/youngsoft/MyLinearLayout</a>
+</li>
+</ul>
+<h3>简介</h3>
+<p><strong><a href="https://github.com/youngsoft/MyLinearLayout" target="_blank">MyLayout</a></strong>是一套iOS界面视图布局框架。其内核是基于对UIView的layoutSubviews方法的重载以及对子视图的bounds和center属性的设置而实现的。MyLayout功能强大而且简单易用，它集成了<strong>iOS Autolayout和Size Classes、android的5大布局体系、HTML/CSS的浮动定位技术以及flex-box和bootstrap框架</strong>等市面上主流的平台的界面布局功能，同时提供了一套非常简单和完备的多屏幕尺寸适配的解决方案。MyLayout还提供了Swift版本<strong><a href="https://github.com/youngsoft/TangramKit" target="_blank">TangramKit</a></strong>   </p>
+<h3>MyLayout的优势</h3>
+<ul>
+<li>MyLayout的实现内核是基于frame的设置，而不是对AutoLayout的封装。因此在使用上不会受到任何操作系统版本的限制。</li>
+<li>有文章表明用frame进行布局的性能要高于用AutoLayout进行布局的性能，尤其是当界面内视图数量增加时效果更加明显。</li>
+<li>AutoLayout的思想是通过视图之间的约束依赖来完成布局，但是约束依赖的结果是造成视图之间的耦合性高而增大了界面更新的成本。而MyLayout则除了提供约束依赖外，还提供了根据视图添加顺序自动建立约束的功能，从而减少了这种显示依赖关系建立的问题，最终的结果是简化了布局的代码量，以及减少了布局更新时的代码修改量。</li>
+<li>AutoLayout只是一种相对约束的布局，而MyLayout除了同时提供具有和AutoLayout相同能力的相对布局外、还提供了线性布局、框架布局、表格布局、流式布局、浮动布局、路径布局7大布局体系，你完全可以根据你的界面需求来选择一种最简易的布局容器来实现你的功能，同时MyLayout还支持Size classes的机制，以及提供了一些实现屏幕尺寸完美适配的方法。</li>
+<li>MyLayout主要是一种通过代码进行布局的解决方案，但是框架一样可以支持和XIB以及SB结合布局的方式。并提供了视图隐藏和显示时会自动激发布局、布局视图的高度自适应(UITableviewCell动态高度)、标签云实现、左右内容宽度自适应、按比例分配尺寸和间距、整体停靠控制等等各种强大的功能。</li>
+</ul>
+<h3>AutoLayout和frame布局的性能比较</h3>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/1432482-e7e8c36e1b790d92.png" data-original-src="http://upload-images.jianshu.io/upload_images/1432482-e7e8c36e1b790d92.png?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div><div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/1432482-69bddc21e9c9df5f.png" data-original-src="http://upload-images.jianshu.io/upload_images/1432482-69bddc21e9c9df5f.png?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div>
+<p>参考的文章地址:<a href="http://floriankugler.com/2013/04/22/auto-layout-performance-on-ios/" target="_blank"> http://floriankugler.com/2013/04/22/auto-layout-performance-on-ios/</a></p>
+<h2>应用场景</h2>
+<p>举例下面一个应用场景:</p>
+<ul>
+<li>有一个容器视图S的宽度是100而高度则是由四个从上到下依次排列的子视图A,B,C,D的高度总和。</li>
+<li>视图A的左边距占用父视图宽度的20%，而右边距则占用父视图宽度的30%，高度则等于自身的宽度。</li>
+<li>视图B的左边距是40，宽度则占用父视图的剩余宽度，高度是40。</li>
+<li>视图C的宽度占用父视图的所有宽度，高度是40。</li>
+<li>视图D的右边距是20，宽度是父视图宽度的50%，高度是40。</li>
+</ul>
+<p>最终的效果图如下：</p>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/usagedemo.png" data-original-src="https://raw.githubusercontent.com/youngsoft/TangramKit/master/TangramKitDemo/Support%20Files/usagedemo.png" style="cursor: zoom-in;"><br><div class="image-caption">demo</div>
+</div>
+<pre class="hljs mipsasm"><code class="mipsasm">    MyLinearLayout *S = [MyLinearLayout linearLayoutWithOrientation:MyLayoutViewOrientation_Vert]<span class="hljs-comment">;</span>
+    S.<span class="hljs-keyword">subviewSpace </span>= <span class="hljs-number">10</span><span class="hljs-comment">;</span>
+    S.myWidth = <span class="hljs-number">100</span><span class="hljs-comment">;</span>
+
+    UIView *A = UIView.new<span class="hljs-comment">;</span>
+    A.leftPos.equalTo(@<span class="hljs-number">0</span>.<span class="hljs-number">2</span>)<span class="hljs-comment">;</span>
+    A.rightPos.equalTo(@<span class="hljs-number">0</span>.<span class="hljs-number">3</span>)<span class="hljs-comment">;</span>
+    A.heightSize.equalTo(A.widthSize)<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:A];
+</span>
+    UIView *<span class="hljs-keyword">B </span>= UIView.new<span class="hljs-comment">;</span>
+    <span class="hljs-keyword">B.leftPos.equalTo(@40);
+</span>    <span class="hljs-keyword">B.widthSize.equalTo(@60);
+</span>    <span class="hljs-keyword">B.heightSize.equalTo(@40);
+</span>    [S <span class="hljs-keyword">addSubview:B];
+</span>
+    UIView *C = UIView.new<span class="hljs-comment">;</span>
+    C.widthSize.equalTo(S.widthSize)<span class="hljs-comment">;</span>
+    C.heightSize.equalTo(@<span class="hljs-number">40</span>)<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:C];
+</span>
+    UIView *D = UIView.new<span class="hljs-comment">;</span>
+    D.rightPos.equalTo(@<span class="hljs-number">20</span>)<span class="hljs-comment">;</span>
+    D.widthSize.equalTo(S.widthSize).<span class="hljs-keyword">multiply(0.5);
+</span>    D.heightSize.equalTo(@<span class="hljs-number">40</span>)<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:D];</span></code></pre>
+<h2>系统结构</h2>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/MyLayoutClass.png" data-original-src="https://raw.githubusercontent.com/youngsoft/MyLinearLayout/master/MyLayout/MyLayoutClass.png" style="cursor: zoom-in;"><br><div class="image-caption">demo</div>
+</div>
+<h3>布局位置类MyLayoutPos</h3>
+<p>MyLayoutPos类是用来描述一个视图所在的位置的类。UIView中扩展出了leftPos,topPos,bottomPos,rightPos,centerXPos,centerYPos这六个变量来实现视图的定位操作。您可以用这些变量的<code>equalTo</code>方法来设置视图之间的边距和间距。 <code>equalTo</code> 方法可以设置NSNumber, MyLayoutPos, NSArray&lt;MyLayoutPos*&gt;这几种值，分别用于不同的场景。同时系统提供了6个简单的变量myLeft, myTop, myBottom, myRight, myCenterX, mYCenterY来设置NSNumber类型的值，比如 <code>A.leftPos.equalTo(@10); 等价于 A.myLeft = 10;</code>.</p>
+<h3>布局尺寸类MyLayoutSize</h3>
+<p>MyLayoutSize类是用来描述一个视图的尺寸的类。UIView中扩展出了widthSize,heightSize这两个变量来实现视图的宽度和高度尺寸的设置。您可以用其中的<code>equalTo</code>方法来设置视图的宽度和高度。<code>equalTo</code>方法可以设置NSNumber, MyLayoutSize, NSArray&lt;MyLayoutSize*&gt;这几种值，分别用于不同的场景。同时系统提供了2个简单的变量myWidth,myHeight来设置NSNumber类型的值，比如<code>A.widthSize.equalTo(@10); 等价于A.myWidth = 10;</code>.</p>
+<h3>线性布局MyLinearLayout</h3>
+<blockquote><p>等价于iOS的UIStackView和android的LinearLayout布局。</p></blockquote>
+<p>线性布局是一种里面的子视图按添加的顺序从上到下或者从左到右依次排列的单列(单行)布局视图，因此里面的子视图是通过添加的顺序建立约束和依赖关系的。 子视图从上到下依次排列的线性布局视图称为垂直线性布局视图，而子视图从左到右依次排列的线性布局视图则称为水平线性布局。</p>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/ll.png" data-original-src="https://raw.githubusercontent.com/youngsoft/MyLinearLayout/master/MyLayout/ll.png" style="cursor: zoom-in;"><br><div class="image-caption">演示效果图</div>
+</div>
+<p>示例代码:</p>
+<pre class="hljs mipsasm"><code class="mipsasm">-(void)loadView
+{
+    [super loadView]<span class="hljs-comment">;</span>
+
+    MyLinearLayout *S = [MyLinearLayout linearLayoutWithOrientation:MyLayoutViewOrientation_Vert]<span class="hljs-comment">;</span>
+    S.myWidth = <span class="hljs-number">120</span><span class="hljs-comment">;</span>
+    S.<span class="hljs-keyword">subviewSpace </span>= <span class="hljs-number">10</span><span class="hljs-comment">;</span>
+
+    UIView *A = [UIView new]<span class="hljs-comment">;</span>
+    A.myLeft = A.myRight = <span class="hljs-number">5</span><span class="hljs-comment">;</span>
+    A.myHeight = <span class="hljs-number">40</span><span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:A];
+</span>
+    UIView *<span class="hljs-keyword">B </span>= [UIView new]<span class="hljs-comment">;</span>
+    <span class="hljs-keyword">B.myLeft </span>= <span class="hljs-number">20</span><span class="hljs-comment">;</span>
+    <span class="hljs-keyword">B.myWidth </span>= <span class="hljs-keyword">B.myHeight </span>= <span class="hljs-number">40</span><span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:B];
+</span>
+    UIView *C = [UIView new]<span class="hljs-comment">;</span>
+    C.myRight = <span class="hljs-number">40</span><span class="hljs-comment">;</span>
+    C.myWidth = <span class="hljs-number">50</span><span class="hljs-comment">;</span>
+    C.myHeight = <span class="hljs-number">40</span><span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:C];
+</span>
+    UIView *D = [UIView new]<span class="hljs-comment">;</span>
+    D.myLeft = D.myRight = <span class="hljs-number">10</span><span class="hljs-comment">;</span>
+    D.myHeight = <span class="hljs-number">40</span><span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:D];
+</span>
+    [self.view <span class="hljs-keyword">addSubview:S];
+</span>    S.<span class="hljs-keyword">backgroundColor </span>= [UIColor redColor]<span class="hljs-comment">;</span>
+    A.<span class="hljs-keyword">backgroundColor </span>= [UIColor greenColor]<span class="hljs-comment">;</span>
+    <span class="hljs-keyword">B.backgroundColor </span>= [UIColor <span class="hljs-keyword">blueColor];
+</span>    C.<span class="hljs-keyword">backgroundColor </span>= [UIColor <span class="hljs-keyword">orangeColor];
+</span>    D.<span class="hljs-keyword">backgroundColor </span>= [UIColor cyanColor]<span class="hljs-comment">;</span>
+ }</code></pre>
+<h3>相对布局MyRelativeLayout</h3>
+<blockquote><p>等价于iOS的AutoLayout 和 Android的RelativeLayout布局。</p></blockquote>
+<p>相对布局是一种里面的子视图通过相互之间的约束和依赖来进行布局和定位的布局视图。相对布局里面的子视图的布局位置和添加的顺序无关，而是通过设置子视图的相对依赖关系来进行定位和布局的。</p>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/rl.png" data-original-src="https://raw.githubusercontent.com/youngsoft/MyLinearLayout/master/MyLayout/rl.png" style="cursor: zoom-in;"><br><div class="image-caption">演示效果图</div>
+</div>
+<p>示例代码:</p>
+<pre class="hljs armasm"><code class="armasm">-(void)loadView
+{
+    [super loadView]<span class="hljs-comment">;</span>
+
+    MyRelativeLayout *S = [MyRelativeLayout new]<span class="hljs-comment">;</span>
+    S.widthSize.equalTo(<span class="hljs-comment">@170);</span>
+    S.heightSize.equalTo(<span class="hljs-comment">@280);</span>
+
+    UIView *A = [UIView new]<span class="hljs-comment">;</span>
+    A.leftPos.equalTo(<span class="hljs-comment">@20);</span>
+    A.topPos.equalTo(<span class="hljs-comment">@20);</span>
+    A.widthSize.equalTo(<span class="hljs-comment">@40);</span>
+    A.heightSize.equalTo(A.widthSize)<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:A];
+</span>
+    UIView *<span class="hljs-keyword">B </span>= [UIView new]<span class="hljs-comment">;</span>
+    <span class="hljs-keyword">B.leftPos.equalTo(A.centerXPos);
+</span>    <span class="hljs-keyword">B.topPos.equalTo(A.bottomPos).offset(10);
+</span>    <span class="hljs-keyword">B.widthSize.equalTo(@60);
+</span>    <span class="hljs-keyword">B.heightSize.equalTo(A.heightSize);
+</span>    [S <span class="hljs-keyword">addSubview:B];
+</span>
+    UIView *C = [UIView new]<span class="hljs-comment">;</span>
+    C.leftPos.equalTo(<span class="hljs-keyword">B.rightPos).offset(10);
+</span>    C.<span class="hljs-keyword">bottomPos.equalTo(B.bottomPos);
+</span>    C.widthSize.equalTo(<span class="hljs-comment">@40);</span>
+    C.heightSize.equalTo(<span class="hljs-keyword">B.heightSize).multiply(0.5);
+</span>    [S <span class="hljs-keyword">addSubview:C];
+</span>
+    UIView *D = [UIView new]<span class="hljs-comment">;</span>
+    D.<span class="hljs-keyword">bottomPos.equalTo(C.topPos).offset(10);
+</span>    D.rightPos.equalTo(<span class="hljs-comment">@15);</span>
+    D.heightSize.equalTo(A.heightSize)<span class="hljs-comment">;</span>
+    D.widthSize.equalTo(D.heightSize)<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:D];
+</span>
+    UIView *E = [UIView new]<span class="hljs-comment">;</span>
+    E.centerYPos.equalTo(<span class="hljs-comment">@0);</span>
+    E.centerXPos.equalTo(<span class="hljs-comment">@0);</span>
+    E.heightSize.equalTo(<span class="hljs-comment">@40);</span>
+    E.widthSize.equalTo(S.widthSize).<span class="hljs-keyword">add(-20);
+</span>    [S <span class="hljs-keyword">addSubview:E];
+</span>    //.. F, G
+
+    [<span class="hljs-keyword">self.view </span><span class="hljs-keyword">addSubview:S];
+</span>    S.<span class="hljs-keyword">backgroundColor </span>= [UIColor redColor]<span class="hljs-comment">;</span>
+    A.<span class="hljs-keyword">backgroundColor </span>= [UIColor greenColor]<span class="hljs-comment">;</span>
+    <span class="hljs-keyword">B.backgroundColor </span>= [UIColor <span class="hljs-keyword">blueColor];
+</span>    C.<span class="hljs-keyword">backgroundColor </span>= [UIColor orangeColor]<span class="hljs-comment">;</span>
+    D.<span class="hljs-keyword">backgroundColor </span>= [UIColor cyanColor]<span class="hljs-comment">;</span>
+    E.<span class="hljs-keyword">backgroundColor </span>= [UIColor magentaColor]<span class="hljs-comment">;</span>
+}</code></pre>
+<h3>框架布局MyFrameLayout</h3>
+<blockquote><p>等价于Android的FrameLayout布局。</p></blockquote>
+<p>框架布局是一种里面的子视图停靠在父视图特定方位并且可以重叠的布局视图。框架布局里面的子视图的布局位置和添加的顺序无关，只跟父视图建立布局约束依赖关系。框架布局将垂直方向上分为上、中、下三个方位，而水平方向上则分为左、中、右三个方位，任何一个子视图都只能定位在垂直方向和水平方向上的一个方位上。</p>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/fl.png" data-original-src="https://raw.githubusercontent.com/youngsoft/MyLinearLayout/master/MyLayout/fl.png" style="cursor: zoom-in;"><br><div class="image-caption">演示效果图</div>
+</div>
+<p>示例代码:</p>
+<pre class="hljs objectivec"><code class="objectivec"> -(<span class="hljs-keyword">void</span>)loadView
+{
+    [<span class="hljs-keyword">super</span> loadView];
+
+    MyFrameLayout *S = [MyFrameLayout new];
+    S.mySize = <span class="hljs-built_in">CGSizeMake</span>(<span class="hljs-number">320</span>,<span class="hljs-number">500</span>);
+
+    <span class="hljs-built_in">UIView</span> *A = [<span class="hljs-built_in">UIView</span> new];
+    A.mySize = <span class="hljs-built_in">CGSizeMake</span>(<span class="hljs-number">40</span>,<span class="hljs-number">40</span>);
+    [S addSubview:A];
+
+    <span class="hljs-built_in">UIView</span> *B = [<span class="hljs-built_in">UIView</span> new];
+    B.mySize = <span class="hljs-built_in">CGSizeMake</span>(<span class="hljs-number">40</span>,<span class="hljs-number">40</span>);
+    B.myRight = <span class="hljs-number">0</span>;
+    [S addSubview:B];
+
+    <span class="hljs-built_in">UIView</span> *C = [<span class="hljs-built_in">UIView</span> new];
+    C.mySize = <span class="hljs-built_in">CGSizeMake</span>(<span class="hljs-number">40</span>,<span class="hljs-number">40</span>);
+    C.myCenterY = <span class="hljs-number">0</span>;
+    [S addSubview:C];
+
+    <span class="hljs-built_in">UIView</span> *D = [<span class="hljs-built_in">UIView</span> new];
+    D.mySize = <span class="hljs-built_in">CGSizeMake</span>(<span class="hljs-number">40</span>,<span class="hljs-number">40</span>);
+    D.myCenter = <span class="hljs-built_in">CGPointZero</span>;
+    [S addSubview:D];
+
+    <span class="hljs-comment">//..E，F,G</span>
+
+    [<span class="hljs-keyword">self</span>.view addSubview:S];
+    S.backgroundColor = [<span class="hljs-built_in">UIColor</span> redColor];
+    A.backgroundColor = [<span class="hljs-built_in">UIColor</span> greenColor];
+    B.backgroundColor = [<span class="hljs-built_in">UIColor</span> blueColor];
+    C.backgroundColor = [<span class="hljs-built_in">UIColor</span> orangeColor];
+    D.backgroundColor = [<span class="hljs-built_in">UIColor</span> cyanColor];  
+  }</code></pre>
+<h3>表格布局MyTableLayout</h3>
+<blockquote><p>等价于Android的TableLayout布局和HTML的table元素。</p></blockquote>
+<p>表格布局是一种里面的子视图可以像表格一样多行多列排列的布局视图。子视图添加到表格布局视图前必须先要建立并添加行视图，然后再将子视图添加到行视图里面。如果行视图在表格布局里面是从上到下排列的则表格布局为垂直表格布局，垂直表格布局里面的子视图在行视图里面是从左到右排列的；如果行视图在表格布局里面是从左到右排列的则表格布局为水平表格布局，水平表格布局里面的子视图在行视图里面是从上到下排列的。</p>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/tl.png" data-original-src="https://raw.githubusercontent.com/youngsoft/MyLinearLayout/master/MyLayout/tl.png" style="cursor: zoom-in;"><br><div class="image-caption">演示效果图</div>
+</div>
+<p>示例代码:</p>
+<pre class="hljs objectivec"><code class="objectivec">  -(<span class="hljs-keyword">void</span>)loadView
+{
+    [<span class="hljs-keyword">super</span> loadView];
+
+    MyTableLayout *S = [MyTableLayout tableLayoutWithOrientation:MyLayoutViewOrientation_Vert];
+    S.wrapContentWidth = <span class="hljs-literal">YES</span>;
+    S.rowSpacing = <span class="hljs-number">10</span>;
+    S.colSpacing = <span class="hljs-number">10</span>;
+
+    [S addRow:<span class="hljs-built_in">MTLSIZE_WRAPCONTENT</span> colSize:<span class="hljs-built_in">MTLSIZE_WRAPCONTENT</span>];
+
+    <span class="hljs-built_in">UIView</span> *A = [<span class="hljs-built_in">UIView</span> new];
+    A.mySize = <span class="hljs-built_in">CGSizeMake</span>(<span class="hljs-number">50</span>,<span class="hljs-number">40</span>);
+    [S addSubview:A];
+
+    <span class="hljs-built_in">UIView</span> *B = [<span class="hljs-built_in">UIView</span> new];
+    B.mySize = <span class="hljs-built_in">CGSizeMake</span>(<span class="hljs-number">100</span>,<span class="hljs-number">40</span>);
+    [S addSubview:B];
+
+    <span class="hljs-built_in">UIView</span> *C = [<span class="hljs-built_in">UIView</span> new];
+    C.mySize = <span class="hljs-built_in">CGSizeMake</span>(<span class="hljs-number">30</span>,<span class="hljs-number">40</span>);
+    [S addSubview:C];
+
+    [S addRow:<span class="hljs-built_in">MTLSIZE_WRAPCONTENT</span> colSize:<span class="hljs-built_in">MTLSIZE_WRAPCONTENT</span>];
+
+    <span class="hljs-built_in">UIView</span> *D = [<span class="hljs-built_in">UIView</span> new];
+    D.mySize = <span class="hljs-built_in">CGSizeMake</span>(<span class="hljs-number">200</span>,<span class="hljs-number">40</span>);
+    [S addSubview:D];
+
+    <span class="hljs-comment">//...E,F  </span>
+
+
+    [<span class="hljs-keyword">self</span>.view addSubview:S];
+    S.backgroundColor = [<span class="hljs-built_in">UIColor</span> redColor];
+    A.backgroundColor = [<span class="hljs-built_in">UIColor</span> greenColor];
+    B.backgroundColor = [<span class="hljs-built_in">UIColor</span> blueColor];
+    C.backgroundColor = [<span class="hljs-built_in">UIColor</span> orangeColor];
+    D.backgroundColor = [<span class="hljs-built_in">UIColor</span> cyanColor];
+}</code></pre>
+<h3>流式布局MyFlowLayout</h3>
+<blockquote><p>等价于CSS3的flex-box。</p></blockquote>
+<p>流式布局是一种里面的子视图按照添加的顺序依次排列，当遇到某种约束限制后会另起一行再重新排列的多行展示的布局视图。这里的约束限制主要有数量约束限制和内容尺寸约束限制两种，而换行的方向又分为垂直和水平方向，因此流式布局一共有垂直数量约束流式布局、垂直内容约束流式布局、水平数量约束流式布局、水平内容约束流式布局。流式布局主要应用于那些子视图有规律排列的场景，在某种程度上可以作为UICollectionView的替代品。</p>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/fll.png" data-original-src="https://raw.githubusercontent.com/youngsoft/MyLinearLayout/master/MyLayout/fll.png" style="cursor: zoom-in;"><br><div class="image-caption">演示效果图</div>
+</div>
+<p>示例代码:</p>
+<pre class="hljs mipsasm"><code class="mipsasm">  -(void)loadView
+{
+    [super loadView]<span class="hljs-comment">;</span>
+
+    MyFlowLayout *S = [MyFlowLayout flowLayoutWithOrientation:MyLayoutViewOrientation_Vert arrangedCount:<span class="hljs-number">4</span>]<span class="hljs-comment">;</span>
+    S.wrapContentHeight = YES<span class="hljs-comment">;</span>
+    S.myWidth = <span class="hljs-number">300</span><span class="hljs-comment">;</span>
+    S.padding = UIEdgeInsetsMake(<span class="hljs-number">10</span>, <span class="hljs-number">10</span>, <span class="hljs-number">10</span>, <span class="hljs-number">10</span>)<span class="hljs-comment">;</span>
+    S.gravity = MyGravity_Horz_Fill<span class="hljs-comment">;</span>
+    S.<span class="hljs-keyword">subviewSpace </span>= <span class="hljs-number">10</span><span class="hljs-comment">;</span>
+
+    for (int i = <span class="hljs-number">0</span><span class="hljs-comment">; i &lt; 10; i++)</span>
+    {
+        UIView *A = [UIView new]<span class="hljs-comment">;</span>
+        A.heightSize.equalTo(A.widthSize)<span class="hljs-comment">;</span>
+        [S <span class="hljs-keyword">addSubview:A];
+</span>
+        A.<span class="hljs-keyword">backgroundColor </span>= [UIColor greenColor]<span class="hljs-comment">;</span>
+
+    }
+
+
+    [self.view <span class="hljs-keyword">addSubview:S];
+</span>    S.<span class="hljs-keyword">backgroundColor </span>= [UIColor redColor]<span class="hljs-comment">;</span>
+}</code></pre>
+<h3>浮动布局MyFloatLayout</h3>
+<blockquote><p>等价于css中的float定位。</p></blockquote>
+<p>浮动布局是一种里面的子视图按照约定的方向浮动停靠，当尺寸不足以被容纳时会自动寻找最佳的位置进行浮动停靠的布局视图。浮动布局的理念源于HTML/CSS中的浮动定位技术,因此浮动布局可以专门用来实现那些不规则布局或者图文环绕的布局。根据浮动的方向不同，浮动布局可以分为左右浮动布局和上下浮动布局。</p>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/flo.png" data-original-src="https://raw.githubusercontent.com/youngsoft/MyLinearLayout/master/MyLayout/flo.png" style="cursor: zoom-in;"><br><div class="image-caption">演示效果图</div>
+</div>
+<p>示例代码:</p>
+<pre class="hljs mipsasm"><code class="mipsasm">      -(void)loadView
+{
+    [super loadView]<span class="hljs-comment">;</span>
+
+    MyFloatLayout *S  = [MyFloatLayout floatLayoutWithOrientation:MyLayoutViewOrientation_Vert]<span class="hljs-comment">;</span>
+    S.wrapContentHeight = YES<span class="hljs-comment">;</span>
+    S.padding = UIEdgeInsetsMake(<span class="hljs-number">10</span>, <span class="hljs-number">10</span>, <span class="hljs-number">10</span>, <span class="hljs-number">10</span>)<span class="hljs-comment">;</span>
+    S.<span class="hljs-keyword">subviewSpace </span>= <span class="hljs-number">10</span><span class="hljs-comment">;</span>
+    S.myWidth = <span class="hljs-number">300</span><span class="hljs-comment">;</span>
+
+    UIView *A = [UIView new]<span class="hljs-comment">;</span>
+    A.mySize = CGSizeMake(<span class="hljs-number">80</span>,<span class="hljs-number">70</span>)<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:A];
+</span>
+    UIView *<span class="hljs-keyword">B </span>= [UIView new]<span class="hljs-comment">;</span>
+    <span class="hljs-keyword">B.mySize </span>= CGSizeMake(<span class="hljs-number">150</span>,<span class="hljs-number">40</span>)<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:B];
+</span>
+    UIView *C = [UIView new]<span class="hljs-comment">;</span>
+    C.mySize = CGSizeMake(<span class="hljs-number">70</span>,<span class="hljs-number">40</span>)<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:C];
+</span>
+    UIView *D = [UIView new]<span class="hljs-comment">;</span>
+    D.mySize = CGSizeMake(<span class="hljs-number">100</span>,<span class="hljs-number">140</span>)<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:D];
+</span>
+    UIView *E = [UIView new]<span class="hljs-comment">;</span>
+    E.mySize = CGSizeMake(<span class="hljs-number">150</span>,<span class="hljs-number">40</span>)<span class="hljs-comment">;</span>
+    E.reverseFloat = YES<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:E];
+</span>
+    UIView *F = [UIView new]<span class="hljs-comment">;</span>
+    F.mySize = CGSizeMake(<span class="hljs-number">120</span>,<span class="hljs-number">60</span>)<span class="hljs-comment">;</span>
+    [S <span class="hljs-keyword">addSubview:F];
+</span>
+
+    [self.view <span class="hljs-keyword">addSubview:S];
+</span>    S.<span class="hljs-keyword">backgroundColor </span>= [UIColor redColor]<span class="hljs-comment">;</span>
+    A.<span class="hljs-keyword">backgroundColor </span>= [UIColor greenColor]<span class="hljs-comment">;</span>
+    <span class="hljs-keyword">B.backgroundColor </span>= [UIColor <span class="hljs-keyword">blueColor];
+</span>    C.<span class="hljs-keyword">backgroundColor </span>= [UIColor <span class="hljs-keyword">orangeColor];
+</span>    D.<span class="hljs-keyword">backgroundColor </span>= [UIColor cyanColor]<span class="hljs-comment">;</span>
+    E.<span class="hljs-keyword">backgroundColor </span>= [UIColor <span class="hljs-keyword">blackColor];
+</span>    F.<span class="hljs-keyword">backgroundColor </span>= [UIColor whiteColor]<span class="hljs-comment">;</span>
+}</code></pre>
+<h3>路径布局MyPathLayout</h3>
+<blockquote><p>布局库独有</p></blockquote>
+<p>路径布局是一种里面的子视图根据您提供的一条特定的曲线函数形成的路径来进行布局的布局视图。您需要提供一个实现曲线路径的函数、一个特定的坐标体系、一种特定的子视图在曲线上的距离设置这三个要素来实现界面布局。当曲线路径形成后，子视图将按相等的距离依次环绕着曲线进行布局。路径布局主要应用于那些具有特定规律的不规则排列，而且效果很酷炫的的界面布局。</p>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/pl.png" data-original-src="https://raw.githubusercontent.com/youngsoft/MyLinearLayout/master/MyLayout/pl.png" style="cursor: zoom-in;"><br><div class="image-caption">演示效果图</div>
+</div>
+<p>示例代码:</p>
+<pre class="hljs mipsasm"><code class="mipsasm">   -(void)loadView
+{
+    [super loadView]<span class="hljs-comment">;</span>
+
+    MyPathLayout *S = [MyPathLayout new]<span class="hljs-comment">;</span>
+    S.mySize = CGSizeMake(<span class="hljs-number">320</span>,<span class="hljs-number">320</span>)<span class="hljs-comment">;</span>
+    S.coordinateSetting.isReverse = YES<span class="hljs-comment">;</span>
+    S.coordinateSetting.<span class="hljs-keyword">origin </span>= CGPointMake(<span class="hljs-number">0</span>.<span class="hljs-number">5</span>, <span class="hljs-number">0</span>.<span class="hljs-number">2</span>)<span class="hljs-comment">;</span>
+
+    S.polarEquation = ^(CGFloat angle)
+    {
+        return <span class="hljs-number">80</span> * (<span class="hljs-number">1</span> + cos(angle))<span class="hljs-comment">;</span>
+    }<span class="hljs-comment">;</span>
+
+    for (int i = <span class="hljs-number">0</span><span class="hljs-comment">; i &lt; 4; i++)</span>
+    {
+        UIView *A = [UIView new]<span class="hljs-comment">;</span>
+        A.mySize = CGSizeMake(<span class="hljs-number">40</span>,<span class="hljs-number">40</span>)<span class="hljs-comment">;</span>
+        [S <span class="hljs-keyword">addSubview:A];
+</span>
+        A.<span class="hljs-keyword">backgroundColor </span>= [UIColor greenColor]<span class="hljs-comment">;</span>
+    }
+
+    [self.view  <span class="hljs-keyword">addSubview:S];
+</span>    S.<span class="hljs-keyword">backgroundColor </span>= [UIColor redColor]<span class="hljs-comment">;</span>
+ }</code></pre>
+<h3>Size Classes的支持</h3>
+<blockquote><p>等价于iOS的Size Classes</p></blockquote>
+<p>MyLayout布局体系为了实现对不同屏幕尺寸的设备进行适配，提供了对Size Classes的支持。您可以将Size Classes和上述的6种布局搭配使用，以便实现各种设备界面的完美适配。系统提供2个UIView的扩展方法：</p>
+<pre class="hljs elm"><code class="elm">-(instance<span class="hljs-keyword">type</span>)fetchLayoutSizeClass:(<span class="hljs-type">MySizeClass</span>)sizeClass;
+-(instance<span class="hljs-keyword">type</span>)fetchLayoutSizeClass:(<span class="hljs-type">MySizeClass</span>)sizeClass copyFrom:(<span class="hljs-type">MySizeClass</span>)srcSizeClass;
+
+`</code></pre>
+<p>来实现对Size Classes的支持。比如下面的例子：</p>
+<pre class="hljs nix"><code class="nix">//默认所有设备的设置。
+ MyLinearLayout *<span class="hljs-attr">rootLayout</span> = [MyLinearLayout linearLayoutWithOrientation:MyLayoutViewOrientation_Vert];
+    rootLayout.<span class="hljs-attr">padding</span> = UIEdgeInsetsMake(<span class="hljs-number">10</span>, <span class="hljs-number">10</span>, <span class="hljs-number">10</span>, <span class="hljs-number">10</span>);
+    rootLayout.<span class="hljs-attr">wrapContentHeight</span> = NO;
+    rootLayout.<span class="hljs-attr">gravity</span> = MyGravity_Horz_Fill;
+
+//MySizeClass_wAny | MySizeClass_hCompact 表明的是iPhone设备的横屏.
+ MyLinearLayout *<span class="hljs-attr">lsc</span> = [rootLayout fetchLayoutSizeClass:MySizeClass_wAny | MySizeClass_hCompact copyFrom:MySizeClass_wAny | MySizeClass_hAny];
+
+    lsc.<span class="hljs-attr">orientation</span> = MyLayoutViewOrientation_Horz;
+    lsc.<span class="hljs-attr">wrapContentWidth</span> = NO;
+    lsc.<span class="hljs-attr">gravity</span> = MyGravity_Vert_Fill;</code></pre>
+<h2>使用方法</h2>
+<h3>直接拷贝</h3>
+<ol>
+<li>将github工程中的Lib文件夹下的所有文件复制到您的工程中。</li>
+<li>将<code>#import "MyLayout.h"</code> 头文件放入到您的pch文件中，或者在需要使用界面布局的源代码位置。</li>
+</ol>
+<h3>CocoaPods安装</h3>
+<p>如果您还没有安装cocoapods则请先执行如下命令：</p>
+<pre class="hljs cmake"><code class="cmake">$ gem <span class="hljs-keyword">install</span> cocoapods</code></pre>
+<p>为了用CocoaPods整合MyLayout到您的Xcode工程, 请建立如下的Podfile:</p>
+<pre class="hljs tcl"><code class="tcl"><span class="hljs-keyword">source</span> <span class="hljs-string">'https://github.com/CocoaPods/Specs.git'</span>
+<span class="hljs-keyword">platform</span> :ios, <span class="hljs-string">'7.0'</span>
+
+pod <span class="hljs-string">'MyLayout'</span>, <span class="hljs-string">'~&gt; 1.3.5'</span></code></pre>
+<p>然后运行如下命令:</p>
+<pre class="hljs cmake"><code class="cmake">$ pod <span class="hljs-keyword">install</span></code></pre>
+<h3>演示效果图</h3>
+<div class="image-package">
+<img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/1432482-3bfd0855a51b6d8e.gif" data-original-src="http://upload-images.jianshu.io/upload_images/1432482-3bfd0855a51b6d8e.gif?imageMogr2/auto-orient/strip" style="cursor: zoom-in;"><br><div class="image-caption">MyLayout演示效果图</div>
+</div>
+<h3>链接:</h3>
+<p>欢迎大家访问我的<a href="https://github.com/youngsoft" target="_blank">github</a>站点，并关注<a href="https://github.com/youngsoft" target="_blank">@欧阳大哥2013</a>  关注我的<a href="http://www.jianshu.com/u/3c9287519f58" target="_blank">个人主页</a></p>
+<ul>
+<li>
+<strong>Swift:TangramKit:</strong> <a href="https://github.com/youngsoft/TangramKit" target="_blank">https://github.com/youngsoft/TangramKit</a>
+</li>
+<li>
+<strong>OC:MyLayout:</strong> <a href="https://github.com/youngsoft/MyLinearLayout" target="_blank">https://github.com/youngsoft/MyLinearLayout</a>
+</li>
+</ul>
+
+        </div>
+        <!--  -->
+
+        <div class="show-foot">
+          <a class="notebook" href="http://www.jianshu.com/nb/2925242">
+            <i class="iconfont ic-search-notebook"></i> <span>iOS</span>
+</a>          <div class="copyright" data-toggle="tooltip" data-html="true" data-original-title="转载请联系作者获得授权，并标注“简书作者”。">
+            © 著作权归作者所有
+          </div>
+          <div class="modal-wrap" data-report-note="">
+            <a id="report-modal">举报文章</a>
+          </div>
+        </div>
+    </div>
+
+    <!-- 文章底部作者信息 -->
+      <div class="follow-detail">
+        <div class="info">
+          <a class="avatar" href="http://www.jianshu.com/u/3c9287519f58">
+            <img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/3fc4d9e07a8a" alt="144">
+</a>          <a class="btn btn-success follow"><i class="iconfont ic-follow"></i><span>关注</span></a>
+          <a class="title" href="http://www.jianshu.com/u/3c9287519f58">欧阳大哥2013</a>
+        <p>写了 49088 字，被 297 人关注，获得了 216 个喜欢</p></div>
+          <div class="signature">
+            <span>坚持原创，以造轮子为乐。---目前在做移动客户端方面的开发。
+https://github....</span>
+          </div>
+      </div>
+
+      <div class="support-author"><p>如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！</p> <div class="btn btn-pay">赞赏支持</div> <!----> <!----> <!----></div>
+
+    <div class="meta-bottom">
+      <div class="like"><div class="btn like-group"><div class="btn-like"><a href="http://www.jianshu.com/sign_in"><i class="iconfont ic-like"></i>喜欢</a></div> <div class="modal-wrap"><a>31</a></div></div> <!----></div>
+      <div class="share-group">
+        <a class="share-circle" data-action="weixin-share" data-toggle="tooltip" data-original-title="分享到微信">
+          <i class="iconfont ic-wechat"></i>
+        </a>
+        <a class="share-circle" data-toggle="tooltip" href="javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f=&#39;http://v.t.sina.com.cn/share/share.php?appkey=1881139527&#39;,u=z||d.location,p=[&#39;&amp;url=&#39;,e(u),&#39;&amp;title=&#39;,e(t||d.title),&#39;&amp;source=&#39;,e(r),&#39;&amp;sourceUrl=&#39;,e(l),&#39;&amp;content=&#39;,c||&#39;gb2312&#39;,&#39;&amp;pic=&#39;,e(p||&#39;&#39;)].join(&#39;&#39;);function%20a(){if(!window.open([f,p].join(&#39;&#39;),&#39;mb&#39;,[&#39;toolbar=0,status=0,resizable=1,width=440,height=430,left=&#39;,(s.width-440)/2,&#39;,top=&#39;,(s.height-430)/2].join(&#39;&#39;)))u.href=[f,p].join(&#39;&#39;);};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,&#39;&#39;,&#39;&#39;,&#39;http://cwb.assets.jianshu.io/notes/images/9983157/weibo/image_2cc7814b1839.jpg&#39;, &#39;推荐 @欧阳大哥2013 的文章《iOS下的界面布局利器-MyLayout布局框架》（ 分享自 @简书 ）&#39;,&#39;http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weibo&#39;,&#39;页面编码gb2312|utf-8默认gb2312&#39;));" data-original-title="分享到微博">
+          <i class="iconfont ic-weibo"></i>
+        </a>
+          <a class="share-circle" data-toggle="tooltip" href="http://cwb.assets.jianshu.io/notes/images/9983157/weibo/image_2cc7814b1839.jpg" target="_blank" data-original-title="下载长微博图片">
+            <i class="iconfont ic-picture"></i>
+          </a>
+        <a class="share-circle more-share" tabindex="0" data-toggle="popover" data-placement="top" data-html="true" data-trigger="focus" href="javascript:void(0);" data-content="
+          &lt;ul class=&quot;share-list&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&#39;+e(&#39;http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qzone&#39;)+&#39;&amp;title=&#39;+e(&#39;推荐 欧阳大哥2013 的文章《iOS下的界面布局利器-MyLayout布局框架》&#39;),x=function(){if(!window.open(r,&#39;qzone&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-zone&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到QQ空间&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://twitter.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=twitter&#39;)+&#39;&amp;text=&#39;+e(&#39;推荐 欧阳大哥2013 的文章《iOS下的界面布局利器-MyLayout布局框架》（ 分享自 @jianshucom ）&#39;)+&#39;&amp;related=&#39;+e(&#39;jianshucom&#39;),x=function(){if(!window.open(r,&#39;twitter&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-twitter&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://www.facebook.com/dialog/share?app_id=483126645039390&amp;display=popup&amp;href=http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=facebook&#39;,x=function(){if(!window.open(r,&#39;facebook&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-facebook&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://plus.google.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=google_plus&#39;),x=function(){if(!window.open(r,&#39;google_plus&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-google&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Google+&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:&#39;&#39;,r=&#39;http://www.douban.com/recommend/?url=&#39;+e(&#39;http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=douban&#39;)+&#39;&amp;title=&#39;+e(&#39;iOS下的界面布局利器-MyLayout布局框架&#39;)+&#39;&amp;sel=&#39;+e(s)+&#39;&amp;v=1&#39;,x=function(){if(!window.open(r,&#39;douban&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r+&#39;&amp;r=1&#39;};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-douban&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到豆瓣&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        " data-original-title="" title="">更多分享</a>
+      </div>
+    </div>
+    <div><div id="comment-list" class="comment-list"><div><form class="new-comment"><a class="avatar"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/avatar_default-78d4d1f68984cd6d4379508dd94b4210.png"></a> <div class="sign-container"><a href="http://www.jianshu.com/sign_in" class="btn btn-sign">登录</a> <span>后发表评论</span></div></form></div> <div id="normal-comment-list" class="normal-comment-list"><div><div><div class="top"><span>9条评论</span> <a class="author-only">只看作者</a> <a class="close-btn" style="display: none;">关闭评论</a> <div class="pull-right"><a class="active">按喜欢排序</a><a class="">按时间正序</a><a class="">按时间倒序</a></div></div></div> <!----> <!----> <div class="comments-placeholder" style="display: none;"><div class="author"><div class="avatar"></div> <div class="info"><div class="name"></div> <div class="meta"></div></div></div> <div class="text"></div> <div class="text animation-delay"></div> <div class="tool-group"><i class="iconfont ic-zan-active"></i><div class="zan"></div> <i class="iconfont ic-list-comments"></i><div class="zan"></div></div></div> <div id="comment-8788867" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/dd6be0db23cd" target="_blank" class="avatar"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/e756861708b6.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/dd6be0db23cd" target="_blank" class="name">SunnyPig</a> <!----> <div class="meta"><span>2楼 · 2017.03.10 09:25</span></div></div></div> <div class="comment-wrap"><p>可以，很强势</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <!----> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8792536" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/6eac6cffe8c8" target="_blank" class="avatar"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/442e7641-316f-450b-88b4-bd00cc579a95.JPG"></a> <div class="info"><a href="http://www.jianshu.com/u/6eac6cffe8c8" target="_blank" class="name">古子林</a> <!----> <div class="meta"><span>3楼 · 2017.03.10 10:53</span></div></div></div> <div class="comment-wrap"><p>mark</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <!----> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8805294" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/6b8f341ce5e8" target="_blank" class="avatar"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/ab24e67eedeb"></a> <div class="info"><a href="http://www.jianshu.com/u/6b8f341ce5e8" target="_blank" class="name">南柯弈梦</a> <!----> <div class="meta"><span>4楼 · 2017.03.10 16:17</span></div></div></div> <div class="comment-wrap"><p>mark</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <!----> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8919589" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/87744b32463e" target="_blank" class="avatar"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/8-a356878e44b45ab268a3b0bbaaadeeb7.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/87744b32463e" target="_blank" class="name">JosephXuan</a> <!----> <div class="meta"><span>5楼 · 2017.03.13 14:01</span></div></div></div> <div class="comment-wrap"><p>mark</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <!----> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-8920641" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/c7560ab777b3" target="_blank" class="avatar"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/12-aeeea4bedf10f2a12c0d50d626951489.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/c7560ab777b3" target="_blank" class="name">圣罗迦奈</a> <!----> <div class="meta"><span>6楼 · 2017.03.13 14:35</span></div></div></div> <div class="comment-wrap"><p>我的乖乖 这可着实了得</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <!----> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-9037351" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/d364ff55ff5c" target="_blank" class="avatar"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/805a7e3e-4bae-4ccb-9bf1-0ff40a77374f.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/d364ff55ff5c" target="_blank" class="name">iastrolien</a> <!----> <div class="meta"><span>7楼 · 2017.03.16 11:35</span></div></div></div> <div class="comment-wrap"><p>你这样真的好么？ 每一次布局都要多加一次view</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <!----> <!----></div></div></div> <div class="sub-comment-list"><div id="comment-9060756" class="sub-comment"><p><a href="http://www.jianshu.com/u/3c9287519f58" target="_blank">欧阳大哥2013</a>：
+          <span><a href="http://www.jianshu.com/users/d364ff55ff5c" class="maleskine-author" target="_blank" data-user-slug="d364ff55ff5c">@iastrolien</a>  你可以和XIB结合着使用，把self.view里面的视图设置为一个布局视图就好了。另外你也可以把根视图设置为一个布局视图，实际上是不会增加一个次view的。</span></p> <div class="sub-tool-group"><span>2017.03.16 22:02</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <!----> <!----></div></div><div id="comment-9078294" class="sub-comment"><p><a href="http://www.jianshu.com/u/d364ff55ff5c" target="_blank">iastrolien</a>：
+          <span><a href="http://www.jianshu.com/users/3c9287519f58" class="maleskine-author" target="_blank" data-user-slug="3c9287519f58">@欧阳大哥2013</a> 从不 使用xib。   并且，你这样使用 不感觉 太费劲了么~~  我遇到复杂页面怎么办？   </span></p> <div class="sub-tool-group"><span>2017.03.17 10:25</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <!----> <!----></div></div><div id="comment-9093171" class="sub-comment"><p><a href="http://www.jianshu.com/u/3c9287519f58" target="_blank">欧阳大哥2013</a>：
+          <span><a href="http://www.jianshu.com/users/d364ff55ff5c" class="maleskine-author" target="_blank" data-user-slug="d364ff55ff5c">@iastrolien</a> 布局库的一些例子就是比较复杂页面的实现，你可以参考一下。。</span></p> <div class="sub-tool-group"><span>2017.03.17 17:06</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <!----> <!----></div></div> <div class="sub-comment more-comment"><a class="add-comment-btn"><i class="iconfont ic-subcomment"></i> <span>添加新评论</span></a> <!----> <!----> <!----></div> <!----></div></div></div></div> <!----> <!----></div></div>
+  </div>
+
+  <div class="side-tool"><ul><li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="回到顶部"><a href="http://www.jianshu.com/p/603fd470bbb0#" class="function-button"><i class="iconfont ic-backtop"></i></a></li> <!----> <!----> <li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="分享文章"><a tabindex="0" role="button" data-toggle="popover" data-placement="left" data-html="true" data-trigger="focus" href="javascript:void(0);" data-content="&lt;ul class=&#39;share-list&#39;&gt;
+                &lt;li&gt;&lt;a class=&quot;weixin-share&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-weixin&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到微信&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f=&#39;http://v.t.sina.com.cn/share/share.php?appkey=1881139527&#39;,u=z||d.location,p=[&#39;&amp;url=&#39;,e(u),&#39;&amp;title=&#39;,e(t||d.title),&#39;&amp;source=&#39;,e(r),&#39;&amp;sourceUrl=&#39;,e(l),&#39;&amp;content=&#39;,c||&#39;gb2312&#39;,&#39;&amp;pic=&#39;,e(p||&#39;&#39;)].join(&#39;&#39;);function%20a(){if(!window.open([f,p].join(&#39;&#39;),&#39;mb&#39;,[&#39;toolbar=0,status=0,resizable=1,width=440,height=430,left=&#39;,(s.width-440)/2,&#39;,top=&#39;,(s.height-430)/2].join(&#39;&#39;)))u.href=[f,p].join(&#39;&#39;);};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,&#39;&#39;,&#39;&#39;,&#39;http://cwb.assets.jianshu.io/notes/images/9983157/weibo/image_2cc7814b1839.jpg&#39;, &#39;推荐 @欧阳大哥2013 的文章《iOS下的界面布局利器-MyLayout布局框架》（ 分享自 @简书 ）&#39;,&#39;http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weibo&#39;,&#39;页面编码gb2312|utf-8默认gb2312&#39;));&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-weibo&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到微博&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;http://cwb.assets.jianshu.io/notes/images/9983157/weibo/image_2cc7814b1839.jpg&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-picture&quot;&gt;&lt;/i&gt;&lt;span&gt;下载长微博图片&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&#39;+e(&#39;http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qzone&#39;)+&#39;&amp;title=&#39;+e(&#39;推荐 欧阳大哥2013 的文章《iOS下的界面布局利器-MyLayout布局框架》&#39;),x=function(){if(!window.open(r,&#39;qzone&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-zone&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到QQ空间&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://twitter.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=twitter&#39;)+&#39;&amp;text=&#39;+e(&#39;推荐 欧阳大哥2013 的文章《iOS下的界面布局利器-MyLayout布局框架》（ 分享自 @jianshucom ）&#39;)+&#39;&amp;related=&#39;+e(&#39;jianshucom&#39;),x=function(){if(!window.open(r,&#39;twitter&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-twitter&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://www.facebook.com/dialog/share?app_id=483126645039390&amp;display=popup&amp;href=http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=facebook&#39;,x=function(){if(!window.open(r,&#39;facebook&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-facebook&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://plus.google.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=google_plus&#39;),x=function(){if(!window.open(r,&#39;google_plus&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-google&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到Google+&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:&#39;&#39;,r=&#39;http://www.douban.com/recommend/?url=&#39;+e(&#39;http://www.jianshu.com/p/603fd470bbb0?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=douban&#39;)+&#39;&amp;title=&#39;+e(&#39;iOS下的界面布局利器-MyLayout布局框架&#39;)+&#39;&amp;sel=&#39;+e(s)+&#39;&amp;v=1&#39;,x=function(){if(!window.open(r,&#39;douban&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r+&#39;&amp;r=1&#39;};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()&quot;&gt;&lt;i class=&#39;social-icon-sprite social-icon-douban&#39;&gt;&lt;/i&gt;&lt;span&gt;分享到豆瓣&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;" data-original-title="" title="" class="function-button"><i class="iconfont ic-share"></i></a> <!----></li></ul></div>
+</div>
+<div class="note-bottom"><div class="main"><div class="title">被以下专题收入，发现更多相似内容</div> <!----> <div class="include-collection"><!----> <a href="http://www.jianshu.com/c/072d578bf782?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/1461141850.jpg"><div class="name">iOS开发</div></a><a href="http://www.jianshu.com/c/NEt52a?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/computer_guy.jpg"><div class="name">程序员</div></a><a href="http://www.jianshu.com/c/43fbec298a44?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/xcode-icon-7512a141cc0cb917b000eac30ea1209a4494999fd911561777c23a1de02cadd9.png"><div class="name">iOS开发</div></a><a href="http://www.jianshu.com/c/3sT4qY?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/今日看点.png"><div class="name">今日看点</div></a><a href="http://www.jianshu.com/c/bDHhpK?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/首页投稿.png"><div class="name">首页投稿</div></a><a href="http://www.jianshu.com/c/bb62bc7671d2?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/1436127886.jpg"><div class="name">iOS学习笔记</div></a><a href="http://www.jianshu.com/c/0eb6798c1bf2?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/ARssj.jpg"><div class="name">学习资料汇总</div></a><a href="http://www.jianshu.com/c/74c68fa396d9?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/1479974749.jpg"><div class="name">常用技术收集</div></a><a href="http://www.jianshu.com/c/3233d1a249ca?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/162902612251cbd95971b82.png"><div class="name">iOS Dev...</div></a><a href="http://www.jianshu.com/c/9f7e1af08baf?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/icon128-2x.png"><div class="name">iOS高级开发</div></a><a href="http://www.jianshu.com/c/5534c45cd505?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/IMG_0082.JPG"><div class="name">iOS第三方、...</div></a><a href="http://www.jianshu.com/c/b76e5cc58094?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/道士.jpg"><div class="name">iOS 开源项...</div></a><a href="http://www.jianshu.com/c/cff595cc7e2b?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/1907672-7ad330d1c6337bac.png"><div class="name">iOS学习专题</div></a><a href="http://www.jianshu.com/c/37e3b6001a99?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/1.png"><div class="name">iOS 开发之...</div></a><a href="http://www.jianshu.com/c/8e760f6ead98?utm_source=desktop&amp;utm_medium=notes-included-collection" target="_blank" class="item"><img src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/1427900211.jpg"><div class="name">ios开发</div></a></div> <a class="load-more">阅读更多...</a></div> <!----> <!----></div>
+
+    <script type="application/json" data-name="page-data">{"user_signed_in":false,"locale":"zh-CN","os":"mac","read_mode":"day","read_font":"font2","note_show":{"is_author":false,"is_following_author":false,"is_liked_note":false,"uuid":"bcff555f-5c2b-458e-a85e-649c8eb8db5a"},"note":{"id":9983157,"slug":"603fd470bbb0","user_id":1432482,"notebook_id":2925242,"commentable":true,"likes_count":31,"views_count":898,"public_wordage":2678,"comments_count":9,"author":{"total_wordage":49088,"followers_count":297,"total_likes_count":216}}}</script>
+    
+    <script src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/babel-polyfill-b5a90e7297a723b82f9e.js"></script>
+    <script src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/web-base-b5a90e7297a723b82f9e.js"></script>
+<script src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/web-b5a90e7297a723b82f9e.js"></script>
+    
+    <script src="./iOS下的界面布局利器-MyLayout布局框架 - 简书_files/entry-b5a90e7297a723b82f9e.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35169517-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?0c0e9d9b1e7d617b3e6842e85b9fb068";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+<script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+</script>
+
+  
+
+<!----><!----></body></html>

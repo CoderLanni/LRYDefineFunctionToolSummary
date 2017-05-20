@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D6E8BF61EC4040A0092BD22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E8BF51EC4040A0092BD22 /* main.m */; };
+		6D6E8BF91EC4040A0092BD22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E8BF81EC4040A0092BD22 /* AppDelegate.m */; };
+		6D6E8BFF1EC4040A0092BD22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E8BFD1EC4040A0092BD22 /* Main.storyboard */; };
+		6D6E8C011EC4040A0092BD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E8C001EC4040A0092BD22 /* Assets.xcassets */; };
+		6D6E8C041EC4040A0092BD22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E8C021EC4040A0092BD22 /* LaunchScreen.storyboard */; };
+		6D6E8C0F1EC4040A0092BD22 /* __VC_____View_or_VCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E8C0E1EC4040A0092BD22 /* __VC_____View_or_VCTests.m */; };
+		6D6E8C1A1EC4040A0092BD22 /* __VC_____View_or_VCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E8C191EC4040A0092BD22 /* __VC_____View_or_VCUITests.m */; };
+		6D6E8C291EC404330092BD22 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E8C281EC404330092BD22 /* MainTableViewController.m */; };
+		6D6E8C2D1EC405FE0092BD22 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E8C2B1EC405FE0092BD22 /* MainViewController.m */; };
+		6D6E8C2E1EC405FE0092BD22 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6E8C2C1EC405FE0092BD22 /* MainViewController.xib */; };
+		6D6E8C311EC4110C0092BD22 /* AppearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E8C301EC4110C0092BD22 /* AppearView.m */; };
+		6D6E8C341EC430010092BD22 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E8C331EC430010092BD22 /* FirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D6E8C0B1EC4040A0092BD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D6E8BE91EC4040A0092BD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D6E8BF01EC4040A0092BD22;
+			remoteInfo = "在 VC 中添加 View or VC";
+		};
+		6D6E8C161EC4040A0092BD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D6E8BE91EC4040A0092BD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D6E8BF01EC4040A0092BD22;
+			remoteInfo = "在 VC 中添加 View or VC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D6E8BF11EC4040A0092BD22 /* 在 VC 中添加 View or VC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "在 VC 中添加 View or VC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6E8BF51EC4040A0092BD22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D6E8BF71EC4040A0092BD22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D6E8BF81EC4040A0092BD22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D6E8BFE1EC4040A0092BD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D6E8C001EC4040A0092BD22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D6E8C031EC4040A0092BD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D6E8C051EC4040A0092BD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6E8C0A1EC4040A0092BD22 /* 在 VC 中添加 View or VCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "在 VC 中添加 View or VCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6E8C0E1EC4040A0092BD22 /* __VC_____View_or_VCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__VC_____View_or_VCTests.m"; sourceTree = "<group>"; };
+		6D6E8C101EC4040A0092BD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6E8C151EC4040A0092BD22 /* 在 VC 中添加 View or VCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "在 VC 中添加 View or VCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6E8C191EC4040A0092BD22 /* __VC_____View_or_VCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__VC_____View_or_VCUITests.m"; sourceTree = "<group>"; };
+		6D6E8C1B1EC4040A0092BD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6E8C271EC404330092BD22 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		6D6E8C281EC404330092BD22 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		6D6E8C2A1EC405FE0092BD22 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6D6E8C2B1EC405FE0092BD22 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6D6E8C2C1EC405FE0092BD22 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		6D6E8C2F1EC4110C0092BD22 /* AppearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearView.h; sourceTree = "<group>"; };
+		6D6E8C301EC4110C0092BD22 /* AppearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearView.m; sourceTree = "<group>"; };
+		6D6E8C321EC430010092BD22 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6D6E8C331EC430010092BD22 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D6E8BEE1EC4040A0092BD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6E8C071EC4040A0092BD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6E8C121EC4040A0092BD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D6E8BE81EC4040A0092BD22 = {
+			isa = PBXGroup;
+			children = (
+				6D6E8BF31EC4040A0092BD22 /* 在 VC 中添加 View or VC */,
+				6D6E8C0D1EC4040A0092BD22 /* 在 VC 中添加 View or VCTests */,
+				6D6E8C181EC4040A0092BD22 /* 在 VC 中添加 View or VCUITests */,
+				6D6E8BF21EC4040A0092BD22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D6E8BF21EC4040A0092BD22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D6E8BF11EC4040A0092BD22 /* 在 VC 中添加 View or VC.app */,
+				6D6E8C0A1EC4040A0092BD22 /* 在 VC 中添加 View or VCTests.xctest */,
+				6D6E8C151EC4040A0092BD22 /* 在 VC 中添加 View or VCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D6E8BF31EC4040A0092BD22 /* 在 VC 中添加 View or VC */ = {
+			isa = PBXGroup;
+			children = (
+				6D6E8BF71EC4040A0092BD22 /* AppDelegate.h */,
+				6D6E8BF81EC4040A0092BD22 /* AppDelegate.m */,
+				6D6E8C271EC404330092BD22 /* MainTableViewController.h */,
+				6D6E8C281EC404330092BD22 /* MainTableViewController.m */,
+				6D6E8C2A1EC405FE0092BD22 /* MainViewController.h */,
+				6D6E8C2B1EC405FE0092BD22 /* MainViewController.m */,
+				6D6E8C2C1EC405FE0092BD22 /* MainViewController.xib */,
+				6D6E8C321EC430010092BD22 /* FirstViewController.h */,
+				6D6E8C331EC430010092BD22 /* FirstViewController.m */,
+				6D6E8C2F1EC4110C0092BD22 /* AppearView.h */,
+				6D6E8C301EC4110C0092BD22 /* AppearView.m */,
+				6D6E8BFD1EC4040A0092BD22 /* Main.storyboard */,
+				6D6E8C001EC4040A0092BD22 /* Assets.xcassets */,
+				6D6E8C021EC4040A0092BD22 /* LaunchScreen.storyboard */,
+				6D6E8C051EC4040A0092BD22 /* Info.plist */,
+				6D6E8BF41EC4040A0092BD22 /* Supporting Files */,
+			);
+			path = "在 VC 中添加 View or VC";
+			sourceTree = "<group>";
+		};
+		6D6E8BF41EC4040A0092BD22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D6E8BF51EC4040A0092BD22 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D6E8C0D1EC4040A0092BD22 /* 在 VC 中添加 View or VCTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D6E8C0E1EC4040A0092BD22 /* __VC_____View_or_VCTests.m */,
+				6D6E8C101EC4040A0092BD22 /* Info.plist */,
+			);
+			path = "在 VC 中添加 View or VCTests";
+			sourceTree = "<group>";
+		};
+		6D6E8C181EC4040A0092BD22 /* 在 VC 中添加 View or VCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D6E8C191EC4040A0092BD22 /* __VC_____View_or_VCUITests.m */,
+				6D6E8C1B1EC4040A0092BD22 /* Info.plist */,
+			);
+			path = "在 VC 中添加 View or VCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D6E8BF01EC4040A0092BD22 /* 在 VC 中添加 View or VC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D6E8C1E1EC4040A0092BD22 /* Build configuration list for PBXNativeTarget "在 VC 中添加 View or VC" */;
+			buildPhases = (
+				6D6E8BED1EC4040A0092BD22 /* Sources */,
+				6D6E8BEE1EC4040A0092BD22 /* Frameworks */,
+				6D6E8BEF1EC4040A0092BD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "在 VC 中添加 View or VC";
+			productName = "在 VC 中添加 View or VC";
+			productReference = 6D6E8BF11EC4040A0092BD22 /* 在 VC 中添加 View or VC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D6E8C091EC4040A0092BD22 /* 在 VC 中添加 View or VCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D6E8C211EC4040A0092BD22 /* Build configuration list for PBXNativeTarget "在 VC 中添加 View or VCTests" */;
+			buildPhases = (
+				6D6E8C061EC4040A0092BD22 /* Sources */,
+				6D6E8C071EC4040A0092BD22 /* Frameworks */,
+				6D6E8C081EC4040A0092BD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D6E8C0C1EC4040A0092BD22 /* PBXTargetDependency */,
+			);
+			name = "在 VC 中添加 View or VCTests";
+			productName = "在 VC 中添加 View or VCTests";
+			productReference = 6D6E8C0A1EC4040A0092BD22 /* 在 VC 中添加 View or VCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D6E8C141EC4040A0092BD22 /* 在 VC 中添加 View or VCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D6E8C241EC4040A0092BD22 /* Build configuration list for PBXNativeTarget "在 VC 中添加 View or VCUITests" */;
+			buildPhases = (
+				6D6E8C111EC4040A0092BD22 /* Sources */,
+				6D6E8C121EC4040A0092BD22 /* Frameworks */,
+				6D6E8C131EC4040A0092BD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D6E8C171EC4040A0092BD22 /* PBXTargetDependency */,
+			);
+			name = "在 VC 中添加 View or VCUITests";
+			productName = "在 VC 中添加 View or VCUITests";
+			productReference = 6D6E8C151EC4040A0092BD22 /* 在 VC 中添加 View or VCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D6E8BE91EC4040A0092BD22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LRY;
+				TargetAttributes = {
+					6D6E8BF01EC4040A0092BD22 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					6D6E8C091EC4040A0092BD22 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D6E8BF01EC4040A0092BD22;
+					};
+					6D6E8C141EC4040A0092BD22 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D6E8BF01EC4040A0092BD22;
+					};
+				};
+			};
+			buildConfigurationList = 6D6E8BEC1EC4040A0092BD22 /* Build configuration list for PBXProject "在 VC 中添加 View or VC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D6E8BE81EC4040A0092BD22;
+			productRefGroup = 6D6E8BF21EC4040A0092BD22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D6E8BF01EC4040A0092BD22 /* 在 VC 中添加 View or VC */,
+				6D6E8C091EC4040A0092BD22 /* 在 VC 中添加 View or VCTests */,
+				6D6E8C141EC4040A0092BD22 /* 在 VC 中添加 View or VCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D6E8BEF1EC4040A0092BD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6E8C041EC4040A0092BD22 /* LaunchScreen.storyboard in Resources */,
+				6D6E8C011EC4040A0092BD22 /* Assets.xcassets in Resources */,
+				6D6E8BFF1EC4040A0092BD22 /* Main.storyboard in Resources */,
+				6D6E8C2E1EC405FE0092BD22 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6E8C081EC4040A0092BD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6E8C131EC4040A0092BD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D6E8BED1EC4040A0092BD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6E8C311EC4110C0092BD22 /* AppearView.m in Sources */,
+				6D6E8C341EC430010092BD22 /* FirstViewController.m in Sources */,
+				6D6E8BF91EC4040A0092BD22 /* AppDelegate.m in Sources */,
+				6D6E8BF61EC4040A0092BD22 /* main.m in Sources */,
+				6D6E8C291EC404330092BD22 /* MainTableViewController.m in Sources */,
+				6D6E8C2D1EC405FE0092BD22 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6E8C061EC4040A0092BD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6E8C0F1EC4040A0092BD22 /* __VC_____View_or_VCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6E8C111EC4040A0092BD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6E8C1A1EC4040A0092BD22 /* __VC_____View_or_VCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D6E8C0C1EC4040A0092BD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D6E8BF01EC4040A0092BD22 /* 在 VC 中添加 View or VC */;
+			targetProxy = 6D6E8C0B1EC4040A0092BD22 /* PBXContainerItemProxy */;
+		};
+		6D6E8C171EC4040A0092BD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D6E8BF01EC4040A0092BD22 /* 在 VC 中添加 View or VC */;
+			targetProxy = 6D6E8C161EC4040A0092BD22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D6E8BFD1EC4040A0092BD22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D6E8BFE1EC4040A0092BD22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D6E8C021EC4040A0092BD22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D6E8C031EC4040A0092BD22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D6E8C1C1EC4040A0092BD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D6E8C1D1EC4040A0092BD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D6E8C1F1EC4040A0092BD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "在 VC 中添加 View or VC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.--VC-----View-or-VC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D6E8C201EC4040A0092BD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "在 VC 中添加 View or VC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.--VC-----View-or-VC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D6E8C221EC4040A0092BD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "在 VC 中添加 View or VCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.--VC-----View-or-VCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/在 VC 中添加 View or VC.app/在 VC 中添加 View or VC";
+			};
+			name = Debug;
+		};
+		6D6E8C231EC4040A0092BD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "在 VC 中添加 View or VCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.--VC-----View-or-VCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/在 VC 中添加 View or VC.app/在 VC 中添加 View or VC";
+			};
+			name = Release;
+		};
+		6D6E8C251EC4040A0092BD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "在 VC 中添加 View or VCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.--VC-----View-or-VCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "在 VC 中添加 View or VC";
+			};
+			name = Debug;
+		};
+		6D6E8C261EC4040A0092BD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "在 VC 中添加 View or VCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.--VC-----View-or-VCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "在 VC 中添加 View or VC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D6E8BEC1EC4040A0092BD22 /* Build configuration list for PBXProject "在 VC 中添加 View or VC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6E8C1C1EC4040A0092BD22 /* Debug */,
+				6D6E8C1D1EC4040A0092BD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D6E8C1E1EC4040A0092BD22 /* Build configuration list for PBXNativeTarget "在 VC 中添加 View or VC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6E8C1F1EC4040A0092BD22 /* Debug */,
+				6D6E8C201EC4040A0092BD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D6E8C211EC4040A0092BD22 /* Build configuration list for PBXNativeTarget "在 VC 中添加 View or VCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6E8C221EC4040A0092BD22 /* Debug */,
+				6D6E8C231EC4040A0092BD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D6E8C241EC4040A0092BD22 /* Build configuration list for PBXNativeTarget "在 VC 中添加 View or VCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6E8C251EC4040A0092BD22 /* Debug */,
+				6D6E8C261EC4040A0092BD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D6E8BE91EC4040A0092BD22 /* Project object */;
+}
