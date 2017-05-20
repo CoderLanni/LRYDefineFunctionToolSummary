@@ -1,1 +1,3 @@
-# LRYDefineFunctionToolSummary
+# 自己定义的一些功能代码工具
+
+*看官可以根据自己的'具体需要'提取
